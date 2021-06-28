@@ -18,7 +18,7 @@ I want to complete the database of algorithms within this project so that others
 
 Have a look at the wikipedia link https://en.wikipedia.org/wiki/List_of_integer_sequences
 
-Look at the list of notable integer sequences and develop an algorithm in any programming language to return the nth element of the sequence. Look at the project repository to ensure that code for your integer sequence of choice has not already been added to the project in your programming language of choice
+Look at the list of notable integer sequences and develop an algorithm in any programming language to return the nth element of the sequence. The indexing starts at 0, so if the user inputs n=0, this will return the first element of the sequence, n=1 returns the second element etc. Look at the project repository to ensure that code for your integer sequence of choice has not already been added to the project in your programming language of choice.
 
 For example, if someone has created a Python algorithm for the Bell numbers and added it to the project, you can still create an algorithm for the Bell numbers in any other language, just not with Python.
 
@@ -38,9 +38,9 @@ You can also modify and improve existing code within the project, submit a pull 
 
 As this is a project aimed at beginners, I want to briefly explain the most simple way to submit a pull request for those who don't know.
 
-Open my repository and click "Fork". This creates a forked copy of the repository
+Open my repository and click "Fork". This creates a forked copy of the repository.
 
-Add your code to your forked copy
+Add your code to your forked copy.
 
 Return to my repository and click submit pull request. Click "compare across forks". Select your forked copy of the repository as the head and my repository as the base.
 
