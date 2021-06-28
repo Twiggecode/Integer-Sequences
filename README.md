@@ -29,7 +29,7 @@ Look at code that already exists within the project repository, use this to guid
 After you are happy with the code you have developed, submit a pull request. I will then review your code to ensure that it works as expected, and then add it to the project repository. If your code produces the correct outputs, it will be
 always be added to the project repository, regardless of the coding standards/code quality, and regardless of speed of the code.
 
-You can also modify and improve existing code within the project, submit a pull request and I will review your changes. E.g you can improve the speed of code, the coding standards by adding comments, spaces, changing variable names, etc.
+You can also modify and improve existing code within the project, submit a pull request and I will review your changes. For example, you can improve the speed of code, or improve the coding standards by adding comments, spaces, changing variable names, etc.
 
 
 
