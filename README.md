@@ -8,7 +8,7 @@ The purpose of this project is to create a database of algorithms using your cho
 
 This wikipedia link contains a list of many notable integer sequences, such as the prime numbers, the Kolakoski sequence, Motzkin numbers, Lucas numbers etc...
 
-'n' Represents an integer input by the user. For example, if the user inputs the integer '6', then your algorithm should return the 6th element of the sequence.
+'n' Represents an integer input by the user. For example, if the user inputs the integer '2', then your algorithm should return the third element of the sequence (becuase the indexing starts at 0, the first element of the sequence is for n=0, the second element is for n=1, etc).
 
 If someone needs to impliment one of the more obscure integer sequences listed on the wikipedia page within their own program, it is likely that they will have to develop their own algorithm from scratch to find the nth element of the sequence, as no code to generate these obscure sequences will exist on the internet. 
 
