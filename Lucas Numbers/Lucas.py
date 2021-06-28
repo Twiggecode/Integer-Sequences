@@ -7,13 +7,15 @@ while (True):
     if (n > -1):
         break
     print("Invalid number, please enter a new number.")
-		
+
 if (n==0):	# L0 is equal to 2
 	print(2)
-		
+
 elif (n==1):	# L1 is equal to 1
     print(1)
-		
+    
+elif (n==2):    # L2 is equal to 3
+    print(3)
+
 else:	# else n is greater than 1, and we use Ln = (Ln-1) + (Ln-2)
 	print(round(Math.pow((1+Math.sqrt(5))/2,n) - Math.pow((-1+Math.sqrt(5))/2,n)))
-	
