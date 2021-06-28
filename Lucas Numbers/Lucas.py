@@ -17,5 +17,5 @@ elif (n==1):	# L1 is equal to 1
 elif (n==2):    # L2 is equal to 3
     print(3)
 
-else:	# else n is greater than 1, and we use Ln = (Ln-1) + (Ln-2)
+else:	# else n is greater than 2, and we use Ln = phi^n -(phi)^-n	where phi is the golden ratio
 	print(round(Math.pow((1+Math.sqrt(5))/2,n) - Math.pow((-1+Math.sqrt(5))/2,n)))
