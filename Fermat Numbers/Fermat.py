@@ -1,5 +1,5 @@
 import math as Math
-# this class returns the nth element of the Fermat numbers where n is a positive integer (or zero) input by the user
+# this code returns the nth element of the Fermat numbers where n is a positive integer (or zero) input by the user
 
 # the loop is used to check if the number input by the user is a positive integer or zero
 n = int()
