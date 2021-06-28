@@ -17,7 +17,7 @@ public class Polite {
         while (true) {
             System.out.print("Enter a number: ");
             n = scanner.nextInt();	// prompt the user to enter a number
-            if (n > 0)
+            if (n > -1)
             {
                 break;
             }
