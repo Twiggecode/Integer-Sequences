@@ -33,8 +33,8 @@ namespace DefaultNamespace
         {
             // the first euclis number
             double num = 3;
-
             int count = 0;
+            
             if(n == 0)
             {
                 // the first euclid number is 2 + 1
