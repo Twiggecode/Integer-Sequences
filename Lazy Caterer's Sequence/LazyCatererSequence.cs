@@ -1,6 +1,6 @@
 namespace DefaultNamespace
 {
-    public static class LazyCaterSequence
+    public static class LazyCatererSequence
     {
         public static int CalculateLazyCaterSequence(int n)
         {
