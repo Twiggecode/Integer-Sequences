@@ -7,18 +7,17 @@
 
 def f(seq):
   seq.append(seq[-1] + k)
-  
-  
+
+
 if __name__ == '__main__':
 
   seq = [1]     # f(0) = 1
-  
-  MAX = 10000
-  
-  n = int(input())
-  
-  for k in range(MAX): # prints sequence upto input n 
+
+
+  n = int(input("Enter a number: "))
+
+  for k in range(n): # prints sequence upto input n 
     f(seq)
-    
+
   print(seq)
   
