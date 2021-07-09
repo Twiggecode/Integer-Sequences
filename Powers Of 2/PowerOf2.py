@@ -2,8 +2,11 @@ import math
 
 # Taking user imput
 def user_input():
-	n = int(input("Enter n: "))
-	return n
+	try:
+		n = int(input("Enter n: "))
+		return n
+	except ValueError:
+		user_input()
 
 # Find required number in a power series
 def find_power_of2():
@@ -12,7 +15,9 @@ def find_power_of2():
 	while True:
 		if (n > -1):
 			break
-		print("Invalid input, please enter a positive number or 0.")
+		else:
+			print("Invalid input, please enter a positive number or 0.")
+			n = user_input()
 
 	number = math.pow(2, n)
 	return int(number)
