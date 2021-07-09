@@ -75,7 +75,7 @@ def tribonacci(n):
  
 # Driver Code
 if __name__ == "__main__":
-    n = 10
+    n = int(input())
     for i in range(n):
         print(tribonacci(i),end=" ")
     print()
