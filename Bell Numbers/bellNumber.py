@@ -17,5 +17,12 @@ def bellNumber(n):
 
 
 if __name__ == "__main__":
-  n = int(input())
-  print(bellNumber(n))
+    while True :
+        try :
+            n = int(input("Enter a number: "))
+            if n > -1:
+                break
+        except (IndexError, ValueError):
+            print("Enter a positive number: ")
+
+    print(bellNumber(n))

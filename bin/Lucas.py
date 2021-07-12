@@ -3,10 +3,13 @@ import math as Math
 
 n = int()
 while (True):
-    n = int(input("Enter a number: "))
-    if (n > -1):
-        break
-    print("Invalid number, please enter a new number.")
+    try:
+        n = int(input("Enter a number: "))
+        if (n > -1):
+            break
+        print("Invalid number, please enter a new number.")
+    except ValueError:
+        print("Invalid entry, please enter a positive integer.")
 
 if (n==0):	# L0 is equal to 2
 	print(2)

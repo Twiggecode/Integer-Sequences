@@ -2,14 +2,14 @@
 
 
 def fibonacci(n):
-    n += 1;
+    n += 1
     i=1
     num1,num2=0,1
     
     if n==1:
-            return 0;       
+            return 0
     elif n==2:
-        return 1; 
+        return 1
     else:
     
         while i<n-1:
@@ -19,5 +19,13 @@ def fibonacci(n):
             i += 1
         return sum
 
-my_num=int(input("Enter a number:"))
+while True:
+    try:
+        my_num=int(input("Enter a number:"))
+        if my_num >-1 :
+            break
+    except:
+        print("Enter a positive integer: ")
+
+
 print(f"The {my_num}th element of fibonacci series is:",fibonacci(my_num)) 
