@@ -1,12 +1,29 @@
 #include <math.h>
 #include <iostream>
 
-/*  Returns the sum of the positive divisors of n.
-
-    @param The integer n.
-    @return The sum of positive numbers that divide n.
+/*  Returns an integer a raised to the power of b.
+* 
+*   @param  The integer to exponentially raise, and the
+*           power integer.
+*   @return 1 if b = 0, or a * a^(b - 1).
 */
-const int sumOfPositiveDivisors(const int& n)
+const int power(const int& a, const int& b)
+{
+    if (b <= 0)
+    {
+        return 1;
+    }
+
+    return a * power(a, b - 1);
+}
+
+/*  Returns the sum of the kth powers of the positive divisors of n.
+*
+*   @param  The integer n, and the kth power integer.
+*   @return The sum of the kth powers of positive numbers that
+*           divide n.
+*/
+const int sumOfPositiveDivisors(const int& n, const int& k)
 {
     int sum = 0;
 
@@ -33,34 +50,31 @@ const int sumOfPositiveDivisors(const int& n)
     {
         if (n % i == 0)
         {
-            // If i * i = n, add the divisor by itself
+            // If i * i = n, add i^k by itself
             if (n / i == i)
             {
-                sum += i;
+                sum += power(i, k);
             }
             else
             {
-                sum += i + (n / i);
+                sum += power(i, k) + power(n / i, k);
             }
         }
     }
 
-    // Add divisors n and 1 to the result
-    return sum + n + 1;
+    // Add divisors n^k and 1 to the result
+    return sum + power(n, k) + 1;
 }
 
 /*      DRIVER CODE     */
 int main()
 {
-    // int number = 100;
-
-    /*std::cout << "sigma(" << number << ") = " << sumOfPositiveDivisors(number)
-        << std::endl;*/
+    int x = 1;
 
     for (int i = 1; i <= 50; i++)
     {
-        std::cout << "sigma(" << i << ") = " << sumOfPositiveDivisors(i)
-            << std::endl;
+        std::cout << "sigma_" << x << "(" << i << ") = "
+            << sumOfPositiveDivisors(i, x) << std::endl;
     }
 
     return 0;
