@@ -19,10 +19,10 @@ def bellNumber(n):
 if __name__ == "__main__":
     while True :
         try :
-            n = int(input("Enter a number: "))
+            n = int(input("Enter a positive number: "))
             if n > -1:
                 break
         except (IndexError, ValueError):
-            print("Enter a positive number: ")
+            print("Enter a number: ")
 
     print(bellNumber(n))
