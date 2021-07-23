@@ -1,21 +1,23 @@
 def factorial(a:int):
-    if a == 0:
+    if a == 0 or a == 1:
         return 1
-    elif a > 0:
-        res = 1
-        for el in range(1,a+1):
-            res *= el
-        return res
-        
-    else:
-        return "Input Error! It has to be an integer in range of 0 and on"      
+
+    if a<0:
+        return "Negative Integer is not allowed"
+
+    output = a * factorial(a-1)
+    return output
+
+
+
 
 
 
 
 
 if __name__ == "__main__":
-    n = int(input("Enter integer value: "))
-    print("%d! = %d" %(n, factorial(n)))
+    n = int(input("Enter the positive integer value: "))
+    answer = factorial(n)
+    print(f"{n}! = {answer}")
     
 
