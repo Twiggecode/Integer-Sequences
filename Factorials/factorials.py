@@ -1,12 +1,16 @@
 def factorial(a:int):
+    """
+    handle edge case
+    a == 0 or 1 or -ve number
+    """
     if a == 0 or a == 1:
         return 1
 
     if a<0:
         return "Negative Integer is not allowed"
 
-    output = a * factorial(a-1)
-    return output
+    # recursive call
+    return a * factorial(a-1)
 
 
 
