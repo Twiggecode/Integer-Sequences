@@ -22,4 +22,4 @@ def EuclidMullin(n):
         return ans
 
 find_val = int(input("Enter the nth Value to find : "))
-print(find_val, "th value in Euclid–Mullin sequence is ", EuclidMullin(find_val))
+print(f"{find_val}th value in Euclid-Mullin sequence is {EuclidMullin(find_val)}")
