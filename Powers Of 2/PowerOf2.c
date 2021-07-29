@@ -21,6 +21,6 @@ int main(void)
     U64 n;
     printf("Please enter the power of 2: ");
     scanf("%llu",&n);
-    printf("%llu to the power of 2 is: %llu",n,FastPowerOf2(n));
+    printf("2 to the power of %llu is: %llu",n,FastPowerOf2(n));
     return 0;
 }
