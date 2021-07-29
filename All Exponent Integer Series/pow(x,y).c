@@ -1,8 +1,7 @@
-// C++ program for calculating x raised to the power of y 
-// this is a non-iterative solution
+// C program for calculating x raised to the power of y 
 // Time complexity O(log(n))
-#include <bits/stdc++.h>
-using namespace std;
+
+#include <stdio.h>
 
 typedef unsigned long long U64;
 
@@ -28,11 +27,11 @@ U64 power(U64 x, U64 y)
 int main()
 {   
     U64 x,y;
-    cout<<"Enter x in x^y: ";
-    cin>>x;
-    cout<<"Enter y in x^y: ";
-    cin>>y;
-    cout << (power(x, y));
+    printf("Enter x in x^y: ");
+    scanf("%llu", &x);
+    printf("Enter y in x^y: ");
+    scanf("%llu",&y);
+    printf("%llu to power %llu is: %llu ",x,y,power(x,y));
     return 0;
 }
  
