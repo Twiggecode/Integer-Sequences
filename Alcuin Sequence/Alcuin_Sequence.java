@@ -15,7 +15,7 @@ public class Alcuin_Sequence {
     }
 
     private static int Alcuin(int _n) {
-        double n = _n;
+        double n = _n-1; //Edit: The sequence begins with the coefficient of x^0, first term requires n = 0
         return (int)(Math.round((n * n) / 12) - Math.floor(n / 4) * Math.floor((n + 2) / 4));
     }
 }
