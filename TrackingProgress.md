@@ -1,38 +1,43 @@
 <h1>Tracking Sequences Progress</h1>
 <br>
+<p> &#9989; Open</p>
+<p> &#9203; In progress</p>
+<p> &#9940; Close</p>
 <br>
 <h3>Sort by original <a href="https://en.wikipedia.org/wiki/List_of_integer_sequences">wiki</a> table</h3>
 
- <!--<div class="search">Search the table</div>--> 
+<!----> 
 <!---->
-<!--      <label for="Kolakoski">Done</label>    -->
+<!---->
+
+   
 <table>
   <thead>
     <tr>
       <th scope="col">Status</th>
       <th scope="col">Sequence Name</th>
-      <th scope="col">Note</th>
+      <th scope="col">Language</th>
     </tr>
   </thead>
   <tbody>
-  <tr>         
-    <td> Open / In progress /Close </td>
-    <td>Kolakoski sequence</td>
-    <td>      </td>
+  <tr>
+    <td align=center><p> &#9203;</p></td>
+    <td ><a href="./kolakoski_sequence">Kolakoski sequence</a></td>
+    <td>Python      </td>
   </tr>
   <tr>
-  <td> Open / In progress /Close </td>
+  <td align=center><p>  &#9989;</p></td>
   <td>Euler's totient function</td>
   <td></td>
 </tr>
 <tr>
-  <td> Open / In progress /Close </td>
-  <td>Lucas number</td>
-  <td></td>
+  <td align=center><p> &#9203;</p></td>
+  <td><a href="./Lucas Numbers">Lucas numbers</a></td>
+  <td>Python, C++, Java</td>
 </tr>
 <tr>
   <td> Open / In progress /Close -</td>
-  <td>Prime number</td>
+  <td><a href="./Prime Numbers">Prime numbers</a></td>
   <td></td>
 </tr>
 <tr>
@@ -56,9 +61,9 @@
   <td></td>
 </tr>
 <tr>
-  <td> Open / In progress /Close </td>
-  <td>Power of two|Powers of 2</td>
-  <td></td>
+  <td> In progress </td>
+  <td><a href="./Powers Of 2">Powers of 2</a></td>
+  <td>Python, C++, C#, C, Java, </td>
 </tr>
 <tr>
   <td> Open / In progress /Close </td>
@@ -272,7 +277,7 @@
 </tr>
 <tr>
   <td> Open / In progress /Close </td>
-  <td>Alcuin's sequence</td>
+  <td><a href="./Alcuin Sequence">Alcuin's sequence</a></td>
   <td>        </td>
 </tr>
 <tr>
