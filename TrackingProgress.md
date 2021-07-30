@@ -38,7 +38,7 @@
 <tr>
   <td align=center><p> &#9203;</p></td>
   <td><a href="./Prime Numbers">Prime numbers</a></td>
-  <td></td>
+  <td>Python, Java</td>
 </tr>
 <tr>
   <td align=center><p>  &#9989;</p></td>
@@ -48,7 +48,7 @@
 <tr>
   <td align=center><p> &#9203;</p></td>
   <td><a href="./Fibonacci Sequence">Fibonacci number</a></td>
-  <td></td>
+  <td>Python, C++, C#, C, Java, Go, Ruby</td>
 </tr>
 <tr>
   <td align=center><p>  &#9989;</p></td>
@@ -58,10 +58,10 @@
 <tr>
   <td align=center><p> &#9203;</p></td>
   <td><a href="./Tribonacci Sequence">Tribonacci number</a></td>
-  <td></td>
+  <td>Python, C++, C#, C, Java, Go</td>
 </tr>
 <tr>
-  <td> In progress </td>
+  <td align=center><p> &#9203;</p></td>
   <td><a href="./Powers Of 2">Powers of 2</a></td>
   <td>Python, C++, C#, C, Java </td>
 </tr>
@@ -73,7 +73,7 @@
 <tr>
   <td align=center><p> &#9203;</p></td>
   <td><a href="./Catalan Numbers">Catalan number</a></td>
-  <td></td>
+  <td>Python, C++, C#, Java</td>
 </tr>
 <tr>
   <td align=center><p> &#9203;</p></td>
@@ -81,94 +81,94 @@
   <td>Python, C++, C#, Java</td>
 </tr>
 <tr>
-  <td> Open / In progress /Close </td>
+  <td align=center><p>  &#9989;</p></td>
   <td>Euler zigzag number</td>
   <td></td>
 </tr>
 <tr>
-  <td> Open / In progress /Close </td>
-  <td>Lazy caterer's sequence</td>
-  <td></td>
+  <td align=center><p> &#9203;</p></td>
+  <td><a href="./Lazy Caterer's Sequence">Lazy caterer's sequence</a></td>
+  <td>Python, C#</td>
 </tr>
 <tr>
-  <td> Open / In progress /Close </td>
-  <td>Pell numbers</td>
-  <td></td>
+  <td align=center><p> &#9203;</p></td>
+  <td><a href="./Pell Numbers">Pell numbers</a></td>
+  <td>Python, Java</td>
 </tr>
 <tr>
-  <td> Open / In progress /Close </td>
-  <td>Factorials</td>
-  <td></td>
+  <td align=center><p> &#9203;</p></td>
+  <td><a href="./Factorials">Factorials</a></td>
+  <td>Python, Java</td>
 </tr>
 <tr>
-  <td> Open / In progress /Close </td>
+  <td align=center><p>  &#9989;</p></td>
   <td>Derangements</td>
   <td></td>
 </tr>
 <tr>
-  <td> Open / In progress /Close </td>
-  <td>Divisor function</td>
-  <td></td>
+  <td align=center><p> &#9203;</p></td>
+  <td><a href="./Divisor Function">Divisor function</a></td>
+  <td>Python, C++</td>
 </tr>
 <tr>
-  <td> Open / In progress /Close </td>
-  <td>Fermat numbers</td>
-  <td></td>
+  <td align=center><p> &#9203;</p></td>
+   <td><a href="./Fermat Numbers">Fermat numbers</a></td>
+  <td>Python, C++, Java</td>
 </tr>
 <tr>
-  <td> Open / In progress /Close </td>
+  <td align=center><p>  &#9989;</p></td>
   <td>Polytrees</td>
   <td></td>
 </tr>
 <tr>
-  <td> Open / In progress /Close </td>
+  <td align=center><p>  &#9989;</p></td>
   <td>Perfect numbers</td>
   <td></td>
 </tr>
 <tr>
-  <td> Open / In progress /Close </td>
+  <td align=center><p>  &#9989;</p></td>
   <td>Ramanujan tau function</td>
   <td></td>
 </tr>
 <tr>
-  <td> Open / In progress /Close </td>
+  <td align=center><p>  &#9989;</p></td>
   <td>Landau's function</td>
   <td></td>
 </tr>
 <tr>
-  <td> Open / In progress /Close </td>
-  <td>Narayana's cows</td>
-  <td></td>
+  <td align=center><p> &#9203;</p></td>
+  <td><a href="./Narayana's cows">Narayana's cows</a></td>
+  <td>Python, C++</td>
 </tr>
 <tr>
-  <td> Open / In progress /Close </td>
-  <td>Padovan sequence</td>
-  <td></td>
+  <td align=center><p> &#9203;</p></td>
+  <td><a href="./Padovan sequence">Padovan sequence</a></td>
+  <td>Python, C++</td>
 </tr>
 <tr>
-  <td> Open / In progress /Close </td>
-  <td>Euclid–Mullin sequence</td>
-  <td></td>
+  <td align=center><p> &#9203;</p></td>
+  <td><a href="./Euclid–Mullin Sequence">Euclid–Mullin sequence</a></td>
+  <td>Python, Java</td>
 </tr>
 <tr>
-  <td> Open / In progress /Close </td>
+  <td align=center><p>  &#9989;</p></td>
   <td>Lucky numbers</td>
   <td></td>
 </tr>
 <tr>
-  <td> Open / In progress /Close </td>
+  <td align=center><p>  &#9989;</p></td>
   <td>Prime powers</td>
   <td></td>
 </tr>
 <tr>
-  <td> Open / In progress /Close </td>
+  <td align=center><p>  &#9989;</p></td>
   <td>Central binomial coefficients</td>
   <td></td>
 </tr>
 <tr>
-  <td> Open / In progress /Close </td>
-  <td>Motzkin numbers</td>
-  <td></td>
+  <td align=center><p> &#9203;</p></td>
+  <td><a href="./Motzkin Numbers">Motzkin numbers</a></td>
+  <td>Python</td>
 </tr>
 <tr>
   <td> Open / In progress /Close </td>
