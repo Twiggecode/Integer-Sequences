@@ -36,49 +36,49 @@
   <td>Python, C++, Java</td>
 </tr>
 <tr>
-  <td> Open / In progress /Close -</td>
+  <td align=center><p> &#9203;</p></td>
   <td><a href="./Prime Numbers">Prime numbers</a></td>
   <td></td>
 </tr>
 <tr>
-  <td> Open / In progress /Close </td>
+  <td align=center><p>  &#9989;</p></td>
   <td>Partition number</td>
   <td></td>
 </tr>
 <tr>
-  <td> Open / In progress /Close </td>
-  <td>Fibonacci number</td>
+  <td align=center><p> &#9203;</p></td>
+  <td><a href="./Fibonacci Sequence">Fibonacci number</a></td>
   <td></td>
 </tr>
 <tr>
-  <td> Open / In progress /Close -</td>
+  <td align=center><p>  &#9989;</p></td>
   <td>Sylvester's sequence</td>
   <td></td>
 </tr>
 <tr>
-  <td> Open / In progress /Close </td>
-  <td>Tribonacci number</td>
+  <td align=center><p> &#9203;</p></td>
+  <td><a href="./Tribonacci Sequence">Tribonacci number</a></td>
   <td></td>
 </tr>
 <tr>
   <td> In progress </td>
   <td><a href="./Powers Of 2">Powers of 2</a></td>
-  <td>Python, C++, C#, C, Java, </td>
+  <td>Python, C++, C#, C, Java </td>
 </tr>
 <tr>
-  <td> Open / In progress /Close </td>
+  <td align=center><p>  &#9989;</p></td>
   <td>Polyominoes</td>
   <td></td>
 </tr>
 <tr>
-  <td> Open / In progress /Close </td>
-  <td>Catalan number</td>
+  <td align=center><p> &#9203;</p></td>
+  <td><a href="./Catalan Numbers">Catalan number</a></td>
   <td></td>
 </tr>
 <tr>
-  <td> Open / In progress /Close </td>
-  <td>Bell numbers</td>
-  <td></td>
+  <td align=center><p> &#9203;</p></td>
+  <td><a href="./Bell Numbers">Bell numbers</a></td>
+  <td>Python, C++, C#, Java</td>
 </tr>
 <tr>
   <td> Open / In progress /Close </td>
