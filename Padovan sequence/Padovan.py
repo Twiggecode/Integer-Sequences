@@ -3,7 +3,7 @@ def padovan(n):
 
     p = 0
     if n > 2:
-        p = padovan(n-2) + padovan(n-3)
+        p = padovan(n - 2) + padovan(n - 3)
         return p
 
     else:
@@ -22,6 +22,5 @@ def main():
 
     print(f"P({n}) = {padovan(n)}")
 
+
 main()
-
-

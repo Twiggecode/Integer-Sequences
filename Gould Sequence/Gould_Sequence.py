@@ -1,4 +1,4 @@
-'''
+"""
  * Gould' Sequence Example
  * Row Number                Pascal's triangle                 count of odd numbers in ith row
  * 0th row                             1                                         1
@@ -22,14 +22,12 @@
  *
  * So, 5th row of pascal triangle will have 4 odd number
  */
-'''
+"""
 
 find_val = int(input("Enter the nth value : "))
 ans = find_val
 count = 0
-while(find_val):
-        count += find_val & 1
-        find_val >>= 1
-print(ans,"th row in pascal Triangle has ",(1<<count)," odd numbers!")
-
-                     
+while find_val:
+    count += find_val & 1
+    find_val >>= 1
+print(ans, "th row in pascal Triangle has ", (1 << count), " odd numbers!")
