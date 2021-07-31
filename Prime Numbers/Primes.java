@@ -10,11 +10,11 @@ public class Primes {
 		var scanner = new Scanner(System.in);
 		int n=-1;
 		int counter=-1;
-		int i=2;
+		int i=1;
 				
 		while (true) {
             System.out.print("Enter a number: ");
-            
+
             try
             {
             	n = scanner.nextInt();	// prompt the user to enter a number
@@ -34,32 +34,29 @@ public class Primes {
             }          
         }	
 		scanner.close();
-		
-		
-		
-		
+
 		while(counter<n)	// iterate through the set of natural numbers counting how many prime numbers are encountered
 		{
 			
-			if (Isprime(i) == true)
+			if (isPrime(i))
 					{
 						counter++;
 					}			
 			i++;
 		}
 				
-		System.out.println(i-1);	
+		System.out.println(i-1);
 		
 	}
 
 	
 	
-	public static boolean Isprime (double x)	// a method to detect whether a number is prime or not
+	public static boolean isPrime (double x)	// a method to detect whether a number is prime or not
 	{
 		
-		for (int i=2; i<x; i++) // loop over all natural numbers that precede the number that you are checking to be prime or not
+		for (int i=2; i<(x/2)+1; i++) // loop over all natural numbers that precede the number that you are checking to be prime or not
 		{
-			if ((x/i) == Math.round(x/i))	// if the number is found to be divisible by a natural number that proceeds it, the number is not prime
+			if (x % i == 0)	// if the number is found to be divisible by a natural number that proceeds it, the number is not prime
 			{
 				return false;
 			}
