@@ -41,7 +41,7 @@ public class Primes {
 		while(counter<n)	// iterate through the set of natural numbers counting how many prime numbers are encountered
 		{
 			
-			if (Isprime(i) == true)
+			if (isPrime(i))
 					{
 						counter++;
 					}			
@@ -54,12 +54,12 @@ public class Primes {
 
 	
 	
-	public static boolean Isprime (double x)	// a method to detect whether a number is prime or not
+	public static boolean isPrime (double x)	// a method to detect whether a number is prime or not
 	{
 		
 		for (int i=2; i<x; i++) // loop over all natural numbers that precede the number that you are checking to be prime or not
 		{
-			if ((x/i) == Math.round(x/i))	// if the number is found to be divisible by a natural number that proceeds it, the number is not prime
+			if (x % i == 0)	// if the number is found to be divisible by a natural number that proceeds it, the number is not prime
 			{
 				return false;
 			}
