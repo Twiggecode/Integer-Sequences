@@ -440,7 +440,7 @@
 </tr>
 <tr>
   <td align=center><p> &#9203;</p></td>
-  <td><a href="./Juggler Sequence">Juggler sequence</a>Juggler sequence</td>
+  <td><a href="./Juggler Sequence">Juggler sequence</a></td>
   <td>Python</td>
 </tr>
 <tr>
@@ -454,17 +454,17 @@
   <td>        </td>
 </tr>
 <tr>
-  <td> Open / In progress /Close </td>
-  <td>Polite numbers</td>
-  <td>        </td>
+  <td align=center><p> &#9203;</p></td>
+  <td><a href="./Polite Numbers">Polite numbers</a></td>
+  <td>Python, Java</td>
 </tr>
 <tr>
-  <td> Open / In progress /Close </td>
+  <td align=center><p>  &#9989;</p></td>
   <td>Erdős–Nicolas numbers</td>
   <td>        </td>
 </tr>
 <tr>
-  <td> Open / In progress /Close </td>
+  <td align=center><p>  &#9989;</p></td>
   <td>Solution to Stepping Stone Puzzle</td>
   <td>        </td>
 </tr>
