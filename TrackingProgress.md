@@ -98,7 +98,7 @@
 <tr>
   <td align=center><p> &#9203;</p></td>
   <td><a href="./Factorials">Factorials</a></td>
-  <td>Python, Java</td>
+  <td>Python, C++, Java</td>
 </tr>
 <tr>
   <td align=center><p>  &#9989;</p></td>
