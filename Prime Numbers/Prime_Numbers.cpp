@@ -9,7 +9,7 @@ Is_Prime(21) --> will return 'false' value
 Is_Prime(7) --> will return 'true' value
 */
 
-// Boolian function that retutn TRUE if the input is Prime, else return FALSE
+// Boolean function that retutn TRUE if the input is Prime, else return FALSE
 bool Is_Prime(int n) {
 
     if (n <= 1 || n % 2 == 0 && n!=2)               // If less than 2, or even number, and not 2 --> not prime
