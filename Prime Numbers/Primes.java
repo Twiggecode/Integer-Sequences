@@ -10,7 +10,7 @@ public class Primes {
 		var scanner = new Scanner(System.in);
 		int n=-1;
 		int counter=-1;
-		int i=2;
+		int i=1;
 				
 		while (true) {
             System.out.print("Enter a number: ");
