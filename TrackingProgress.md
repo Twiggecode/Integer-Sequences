@@ -171,285 +171,285 @@
   <td>Python</td>
 </tr>
 <tr>
-  <td> Open / In progress /Close </td>
-  <td>Jacobsthal numbers</td>
-  <td></td>
+  <td align=center><p> &#9203;</p></td>
+  <td><a href="./Jacobsthal Numbers">Jacobsthal numbers</a></td>
+  <td>Python, C++, Java</td>
 </tr>
 <tr>
-  <td> Open / In progress /Close </td>
+  <td align=center><p>  &#9989;</p></td>
   <td>Sum of proper divisors</td>
   <td></td>
 </tr>
 <tr>
-  <td> Open / In progress /Close </td>
+  <td align=center><p>  &#9989;</p></td>
   <td>Wedderburn–Etherington numbers</td>
   <td></td>
 </tr>
 <tr>
-  <td> Open / In progress /Close </td>
-  <td>Gould's sequence</td>
-  <td></td>
+  <td align=center><p> &#9203;</p></td>
+  <td><a href="./Gould Sequence">Gould's sequence</a></td>
+  <td>Python, C++, Java</td>
 </tr>
 <tr>
-  <td> Open / In progress /Close </td>
+  <td align=center><p>  &#9989;</p></td>
   <td>Semiprimes</td>
   <td></td>
 </tr>
 <tr>
-  <td> Open / In progress /Close </td>
-  <td>Golomb sequence</td>
-  <td></td>
+  <td align=center><p> &#9203;</p></td>
+  <td><a href="./Golomb Sequence">Golomb sequence</a></td>
+  <td>Python</td>
 </tr>
 <tr>
-  <td> Open / In progress /Close </td>
-  <td>Perrin numbers</td>
-  <td></td>
+  <td align=center><p> &#9203;</p></td>
+  <td><a href="./Perrin Numbers">Perrin numbers</a></td>
+  <td>Python, Java</td>
 </tr>
 <tr>
-  <td> Open / In progress /Close </td>
+  <td align=center><p>  &#9989;</p></td>
   <td>Sorting number</td>
   <td></td>
 </tr>
 <tr>
-  <td> Open / In progress /Close </td>
-  <td>Cullen numbers</td>
-  <td></td>
+  <td align=center><p> &#9203;</p></td>
+  <td><a href="./Cullen Numbers">Cullen numbers</a></td>
+  <td>Python, C++, Java</td>
 </tr>
 <tr>
-  <td> Open / In progress /Close </td>
+  <td align=center><p>  &#9989;</p></td>
   <td>Primorials</td>
   <td></td>
 </tr>
 <tr>
-  <td> Open / In progress /Close </td>
+  <td align=center><p>  &#9989;</p></td>
   <td>Highly composite numbers</td>
   <td></td>
 </tr>
 <tr>
-  <td> Open / In progress /Close </td>
+  <td align=center><p>  &#9989;</p></td>
   <td>Superior highly composite numbers</td>
   <td></td>
 </tr>
 <tr>
-  <td> Open / In progress /Close </td>
-  <td>Pronic numbers</td>
-  <td></td>
+  <td align=center><p> &#9203;</p></td>
+  <td><a href="./Pronic Numbers">Pronic numbers</a></td>
+  <td>Python, Java</td>
 </tr>
 <tr>
-  <td> Open / In progress /Close </td>
+  <td align=center><p>  &#9989;</p></td>
   <td>Markov numbers</td>
   <td></td>
 </tr>
 <tr>
-  <td> Open / In progress /Close </td>
+  <td align=center><p>  &#9989;</p></td>
   <td>Composite numbers</td>
   <td></td>
 </tr>
 <tr>
-  <td> Open / In progress /Close </td>
-  <td>Ulam number</td>
-  <td></td>
+  <td align=center><p> &#9203;</p></td>
+  <td><a href="./Ulam Sequence">Ulam number</a></td>
+  <td>Python</td>
 </tr>
 <tr>
-  <td> Open / In progress /Close </td>
+  <td align=center><p>  &#9989;</p></td>
   <td>Prime knots</td>
   <td></td>
 </tr>
 <tr>
-  <td> Open / In progress /Close </td>
+  <td align=center><p>  &#9989;</p></td>
   <td>Carmichael numbers</td>
   <td>        </td>
 </tr>
 <tr>
-  <td> Open / In progress /Close </td>
-  <td>Woodall numbers</td>
-  <td>        </td>
+  <td align=center><p> &#9203;</p></td>
+  <td><a href="./Woodall Numbers">Woodall numbers</a></td>
+  <td>Python, Java</td>
 </tr>
 <tr>
-  <td> Open / In progress /Close </td>
+  <td align=center><p>  &#9989;</p></td>
   <td>Arithmetic numbers</td>
   <td>        </td>
 </tr>
 <tr>
-  <td> Open / In progress /Close </td>
+  <td align=center><p>  &#9989;</p></td>
   <td>Colossally abundant numbers</td>
   <td>        </td>
 </tr>
 <tr>
-  <td> Open / In progress /Close </td>
+  <td align=center><p> &#9203;</p></td>
   <td><a href="./Alcuin Sequence">Alcuin's sequence</a></td>
-  <td>        </td>
+  <td>Python, C++, C, Java</td>
 </tr>
 <tr>
-  <td> Open / In progress /Close </td>
+  <td align=center><p>  &#9989;</p></td>
   <td>Deficient numbers</td>
   <td>        </td>
 </tr>
 <tr>
-  <td> Open / In progress /Close </td>
+  <td align=center><p>  &#9989;</p></td>
   <td>Abundant number</td>
   <td>        </td>
 </tr>
 <tr>
-  <td> Open / In progress /Close </td>
+  <td align=center><p>  &#9989;</p></td>
   <td>Untouchable numbers</td>
   <td>        </td>
 </tr>
 <tr>
-  <td> Open / In progress /Close </td>
-  <td>Recamán's sequence</td>
-  <td>        </td>
+  <td align=center><p> &#9203;</p></td>
+  <td>><a href="./Recaman's Sequence">Recamán's sequence</a></td>
+  <td>Python</td>
 </tr>
 <tr>
-  <td> Open / In progress /Close </td>
-  <td>Look-and-say sequence</td>
-  <td>        </td>
+  <td align=center><p> &#9203;</p></td>
+  <td><a href="./Look And Say Sequence">Look-and-say sequence</a></td>
+  <td>Python, C++</td>
 </tr>
 <tr>
-  <td> Open / In progress /Close </td>
+  <td align=center><p>  &#9989;</p></td>
   <td>Practical numbers</td>
   <td>        </td>
 </tr>
 <tr>
-  <td> Open / In progress /Close </td>
+  <td align=center><p>  &#9989;</p></td>
   <td>Alternating factorial</td>
   <td>        </td>
 </tr>
 <tr>
-  <td> Open / In progress /Close </td>
+  <td align=center><p>  &#9989;</p></td>
   <td>Fortunate numbers</td>
   <td>        </td>
 </tr>
 <tr>
-  <td> Open / In progress /Close </td>
+  <td align=center><p>  &#9989;</p></td>
   <td>Semiperfect numbers</td>
   <td>        </td>
 </tr>
 <tr>
-  <td> Open / In progress /Close </td>
+  <td align=center><p>  &#9989;</p></td>
   <td>Magic constant</td>
   <td>        </td>
 </tr>
 <tr>
-  <td> Open / In progress /Close </td>
+  <td align=center><p>  &#9989;</p></td>
   <td>Weird numbers</td>
   <td>        </td>
 </tr>
 <tr>
-  <td> Open / In progress /Close </td>
+  <td align=center><p>  &#9989;</p></td>
   <td>Farey sequence numerators</td>
   <td>        </td>
 </tr><tr>
-  <td> Open / In progress /Close </td>
+  <td align=center><p>  &#9989;</p></td>
   <td>Farey sequence denominators</td>
   <td>        </td>
 </tr>
 <tr>
-  <td> Open / In progress /Close </td>
-  <td>Euclid numbers</td>
-  <td>       </td>
+  <td align=center><p> &#9203;</p></td>
+  <td><a href="./Euclid Numbers">Euclid numbers</a></td>
+  <td>Python, C#, C</td>
 </tr>
 <tr>
-  <td> Open / In progress /Close </td>
+  <td align=center><p>  &#9989;</p></td>
   <td>Kaprekar numbers</td>
   <td>        </td>
 </tr>
 <tr>
-  <td> Open / In progress /Close </td>
+  <td align=center><p>  &#9989;</p></td>
   <td>Sphenic numbers</td>
   <td>        </td>
 </tr>
 <tr>
-  <td> Open / In progress /Close </td>
+  <td align=center><p>  &#9989;</p></td>
   <td>Giuga numbers</td>
   <td>        </td>
 </tr>
 <tr>
-  <td> Open / In progress /Close </td>
+  <td align=center><p>  &#9989;</p></td>
   <td>Radical of an integer</td>
   <td>        </td>
 </tr>
 <tr>
-  <td> Open / In progress /Close </td>
+  <td align=center><p>  &#9989;</p></td>
   <td>Thue–Morse sequence</td>
   <td>        </td>
 </tr>
 <tr>
-  <td> Open / In progress /Close </td>
+  <td align=center><p>  &#9989;</p></td>
   <td>Regular paperfolding sequence</td>
   <td>        </td>
 </tr>
 <tr>
-  <td> Open / In progress /Close </td>
+  <td align=center><p>  &#9989;</p></td>
   <td>Blum integers</td>
   <td>       </td>
 </tr>
 <tr>
-  <td> Open / In progress /Close </td>
+  <td align=center><p>  &#9989;</p></td>
   <td>Magic number</td>
   <td>        </td>
 </tr>
 <tr>
-  <td> Open / In progress /Close </td>
+  <td align=center><p>  &#9989;</p></td>
   <td>Superperfect numbers</td>
   <td>        </td>
 </tr>
 <tr>
-  <td> Open / In progress /Close </td>
+  <td align=center><p>  &#9989;</p></td>
   <td>Hyperperfect number</td>
   <td>        </td>
 </tr>
 <tr>
-  <td> Open / In progress /Close </td>
+  <td align=center><p>  &#9989;</p></td>
   <td>Achilles number</td>
   <td>        </td>
 </tr>
 <tr>
-  <td> Open / In progress /Close </td>
+  <td align=center><p>  &#9989;</p></td>
   <td>Primary pseudoperfect numbers</td>
   <td>        </td>
 </tr>
 <tr>
-  <td> Open / In progress /Close </td>
+  <td align=center><p>  &#9989;</p></td>
   <td>Erdős–Woods numbers</td>
   <td>        </td>
 </tr>
 <tr>
-  <td> Open / In progress /Close </td>
+  <td align=center><p>  &#9989;</p></td>
   <td>Sierpinski numbers</td>
   <td>        </td>
 </tr>
 <tr>
-  <td> Open / In progress /Close </td>
+  <td align=center><p>  &#9989;</p></td>
   <td>Riesel number</td>
   <td>        </td>
 </tr>
 <tr>
-  <td> Open / In progress /Close </td>
+  <td align=center><p>  &#9989;</p></td>
   <td>Baum–Sweet sequence</td>
   <td>        </td>
 </tr><tr>
-  <td> Open / In progress /Close </td>
+  <td align=center><p>  &#9989;</p></td>
   <td>Gijswijt's sequence</td>
   <td>        </td>
 </tr>
 <tr>
-  <td> Open / In progress /Close </td>
-  <td>Carol numbers</td>
-  <td>        </td>
+  <td align=center><p> &#9203;</p></td>
+  <td><a href="./Carol Number">Carol numbers</a></td>
+  <td>Python, C++, Java</td>
 </tr>
 <tr>
-  <td> Open / In progress /Close </td>
-  <td>Juggler sequence</td>
-  <td>        </td>
+  <td align=center><p> &#9203;</p></td>
+  <td><a href="./Juggler Sequence">Juggler sequence</a>Juggler sequence</td>
+  <td>Python</td>
 </tr>
 <tr>
-  <td> Open / In progress /Close </td>
+  <td align=center><p>  &#9989;</p></td>
   <td>Highly totient numbers</td>
   <td>        </td>
 </tr>
 <tr>
-  <td> Open / In progress /Close </td>
+  <td align=center><p>  &#9989;</p></td>
   <td>Euler numbers</td>
   <td>        </td>
 </tr>
