@@ -7,9 +7,10 @@
 
 
 def Jacobsthal(n):
-    dp = [0] * (n + 2)
-    dp[0] = 0
-    dp[1] = 1
+        n=n-1 #Edit: Considering first term is 0
+        dp = [0] * (n+1)
+        dp[0] = 0
+        dp[1] = 1
 
     for i in range(2, n + 1):
         dp[i] = dp[i - 1] + 2 * dp[i - 2]
@@ -17,5 +18,5 @@ def Jacobsthal(n):
     return dp[n]
 
 
-find_val = int(input("Enter the nth value : "))
-print(find_val, "th value of Jacobsthal Number is ", Jacobsthal(find_val))
+find_val = int(input("Enter a number: "))
+print(find_val,"th value of Jacobsthal Number is ",Jacobsthal(find_val))

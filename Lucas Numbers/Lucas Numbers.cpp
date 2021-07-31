@@ -1,27 +1,32 @@
-// Recursive C/C++ program
-// to find n'th Lucas number
+// Iterative C/C++ program
+// to find n'th Lucas Number
+// Optimised to work in O(n) time complexity
 #include <stdio.h>
  
-// recursive function
+// Iterative function
 int lucas(int n)
 {
-    // Base cases
-    if (n == 0)
-        return 2;
-    if (n == 1)
-        return 1;
+    // declaring base values
+    // for positions 0 and 1
+    int a = 2, b = 1, c, i;
  
-    // recurrence relation
-    return lucas(n - 1) +
-        lucas(n - 2);
+    if (n == 0)
+        return a;
+ 
+    // generating number
+    for (i = 2; i <= n; i++)
+    {
+        c = a + b;
+        a = b;
+        b = c;
+    }
+    return b;
 }
  
 // Driver Code
 int main()
 {
-    int n;
-    printf("Enter any Integer Number - ");
-    scanf("%d", &n);
+    int n = 9;
     printf("%d", lucas(n));
     return 0;
 }

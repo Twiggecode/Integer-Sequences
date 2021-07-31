@@ -10,7 +10,7 @@ This wikipedia link contains a list of many notable integer sequences, such as t
 
 'n' Represents an integer input by the user. For example, if the user inputs the integer '2', then your algorithm should return the third element of the sequence (because the indexing starts at 0, the first element of the sequence is for n=0, the second element is for n=1, etc).
 
-If someone needs to impliment one of the more obscure integer sequences listed on the wikipedia page within their own program, it is likely that they will have to develop their own algorithm from scratch to find the nth element of the sequence, as no code to generate these obscure sequences will exist on the internet. 
+If someone needs to implement one of the more obscure integer sequences listed on the wikipedia page within their own program, it is likely that they will have to develop their own algorithm from scratch to find the nth element of the sequence, as no code to generate these obscure sequences will exist on the internet. 
 
 I want to complete the database of algorithms within this project so that others can simply use the algorithms within my database instead of wasting time developing their own algorithms. Anyone is free to use the code within this project in their own software, there is no need to ask for permission because this project uses the Unlicense.
 
@@ -27,7 +27,7 @@ If no code for a specific integer sequence exists in the project repository, you
 Look at code that already exists within the project repository, use this to guide you and help you develop your own algorithm.
 
 After you are happy with the code you have developed, submit a pull request. I will then review your code to ensure that it works as expected, and then add it to the project repository. If your code produces the correct outputs, it will be
-always be added to the project repository, regardless of the coding standards/code quality, and regardless of speed of the code.
+always be added to the project repository, regardless of the coding standards/code quality, and regardless of the speed of the code.
 
 You can also modify and improve existing code within the project, submit a pull request and I will review your changes. For example, you can improve the speed of code, or improve the coding standards by adding comments, spaces, changing variable names, etc.
 
@@ -42,6 +42,27 @@ Open my repository and click "Fork". This creates a forked copy of the repositor
 
 Add your code to your forked copy.
 
+You can use following git commands -
+1. To clone the repository in your local system use
+
+```git clone repo-link folder_name```
+
+2. To stage the file you just changed use
+
+```git add file-name```
+   
+3. In case you have changed multiple files and want to stage them all at once use
+
+```git add .``` 
+
+4. To commit those changes use
+
+```git commit -m "Fixed Issue #issue_number"```
+
+5. To push these changes use
+
+```git push origin Branch-name```
+
 Return to my repository and click submit pull request. Click "compare across forks". Select your forked copy of the repository as the head and my repository as the base.
 
-Click submit pull request and leave a meaningful comment explaining the code you are attemping to add to the project.
+Click submit a pull request and leave a meaningful comment explaining the code you are attempting to add to the project.

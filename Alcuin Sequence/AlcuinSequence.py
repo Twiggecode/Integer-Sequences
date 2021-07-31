@@ -5,6 +5,9 @@ from math import floor
 
 
 def alcuin(n):
+    n = (
+        n - 1
+    )  # Edit: The sequence begins with the coefficient of x^0, first term requires n = 0
     return round((n * n) / 12) - floor(n / 4) * floor((n + 2) / 4)
 
 
