@@ -6,9 +6,8 @@ import math
 
 
 def Catalan_Numbers(n):
-    formula = math.factorial(2*n) / (math.factorial(n + 1) * math.factorial(n))
-    return('C{} = {}'.format(n, formula))
+    formula = math.factorial(2 * n) / (math.factorial(n + 1) * math.factorial(n))
+    return "C{} = {}".format(n, formula)
 
 
-
-print(Catalan_Numbers(n = int(input('Enter a Number: '))))
+print(Catalan_Numbers(n=int(input("Enter a Number: "))))
