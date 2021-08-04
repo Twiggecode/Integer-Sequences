@@ -38,7 +38,7 @@ int main()
 	printf("enter the number: ");
 	scanf("%s", x);
 	if (isNum(&x) == 0){
-		printf("Only whole numbers are allowed!");
+		printf("Only whole numbers upto 1000000 are allowed!");
 		return 0;
 	}
 	else{
