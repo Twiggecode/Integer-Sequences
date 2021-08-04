@@ -3,10 +3,12 @@
 // Time complexity O(log(n))
 #include <bits/stdc++.h>
 using namespace std;
- 
-int power(int x, int y)
+
+typedef unsigned long long U64;
+
+U64 power(U64 x, U64 y)
 {
-    int result = 1;
+    U64 result = 1;
     while (y > 0) {
         if (y % 2 == 0) // y is even
         {
@@ -25,11 +27,11 @@ int power(int x, int y)
 // Driver Code
 int main()
 {   
-    # just set the x,y to suit your needs
-    int x,y;
-    cin>>x>>y;
-  
- 
+    U64 x,y;
+    cout<<"Enter x in x^y: ";
+    cin>>x;
+    cout<<"Enter y in x^y: ";
+    cin>>y;
     cout << (power(x, y));
     return 0;
 }

@@ -42,7 +42,14 @@ Open my repository and click "Fork". This creates a forked copy of the repositor
 
 Add your code to your forked copy.
 
-You can use following git commands -
+Return to my repository and click submit pull request. Click "compare across forks". Select your forked copy of the repository as the head and my repository as the base.
+
+Click submit a pull request and leave a meaningful comment explaining the code you are attempting to add to the project.
+
+
+
+Alternatively, you can use the following git commands -
+
 1. To clone the repository in your local system use
 
 ```git clone repo-link folder_name```
@@ -63,6 +70,4 @@ You can use following git commands -
 
 ```git push origin Branch-name```
 
-Return to my repository and click submit pull request. Click "compare across forks". Select your forked copy of the repository as the head and my repository as the base.
 
-Click submit a pull request and leave a meaningful comment explaining the code you are attempting to add to the project.

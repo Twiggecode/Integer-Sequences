@@ -15,9 +15,11 @@ def catalan(n):
 	for i in range(n):
 		res += catalan(i) * catalan(n-i-1)
 
-	return res
+
+def Catalan_Numbers(n):
+    formula = math.factorial(2 * n) / (math.factorial(n + 1) * math.factorial(n))
+    return "C{} = {}".format(n, formula)
 
 
+print(Catalan_Numbers(n=int(input("Enter a Number: "))))
 
-for i in range(10):
-	print(catalan(i))
