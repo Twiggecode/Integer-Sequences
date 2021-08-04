@@ -26,9 +26,9 @@
     <td>Python      </td>
   </tr>
   <tr>
-  <td align=center><p>  &#9989;</p></td>
-  <td>Euler's totient function</td>
-  <td></td>
+  <td align=center><p>  &#9203;</p></td>
+  <td><a href="./Euler's totient function">Euler's totient function</td>
+  <td>C++</td>
 </tr>
 <tr>
   <td align=center><p> &#9203;</p></td>
@@ -51,9 +51,9 @@
   <td>Python, C++, C#, C, Java, Go, Ruby</td>
 </tr>
 <tr>
-  <td align=center><p>  &#9989;</p></td>
-  <td>Sylvester's sequence</td>
-  <td></td>
+  <td align=center><p>  &#9203;</p></td>
+  <td><a href="./Sylvester Sequence">Sylvester's sequence</td>
+  <td>Python, C++</td>
 </tr>
 <tr>
   <td align=center><p> &#9203;</p></td>
