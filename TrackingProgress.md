@@ -48,7 +48,7 @@
 <tr>
   <td align=center><p> &#9203;</p></td>
   <td><a href="./Fibonacci Sequence">Fibonacci number</a></td>
-  <td>Python, C++, C#, C, Java, Go, Ruby</td>
+  <td>Python, C#, C, Java, Go, Ruby</td>
 </tr>
 <tr>
   <td align=center><p> &#9203;</p></td>
