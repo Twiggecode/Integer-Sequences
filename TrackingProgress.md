@@ -336,13 +336,13 @@
   <td>        </td>
 </tr>
 <tr>
-  <td align=center><p>  &#9989;</p></td>
-  <td>Farey sequence numerators</td>
-  <td>        </td>
+  <td align=center><p> &#9203;</p></td>
+  <td><a href='./Farey Sequence Numerators'>Farey Sequence Numerators</a></td>
+  <td>Python        </td>
 </tr><tr>
-  <td align=center><p>  &#9989;</p></td>
-  <td>Farey sequence denominators</td>
-  <td>        </td>
+  <td align=center><p> &#9203;</p></td>
+  <td><a href='./Farey Sequence Denominators'>Farey Sequence Denominators</a></td>
+  <td>Python        </td>
 </tr>
 <tr>
   <td align=center><p> &#9203;</p></td>
