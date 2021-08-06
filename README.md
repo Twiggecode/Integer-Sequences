@@ -1,3 +1,14 @@
+<!-- Do not translate this -->
+<details>
+<summary>
+<strong> Read this guide in other languages </strong>
+</summary>
+    <ul>
+        <li><a href="./README.md"> English </a></li>
+    </ul>
+</details>
+<!-- Do not translate this -->
+
 # Integer Sequences
 
 ## Project Introduction
