@@ -7,7 +7,7 @@ nth = input(
     "Please enter a positive integer to return its value in the Narayana's cows sequence:"
 )
 
-errormessage = "Invalid input, please enter a positive integer:"  # Displyed when invalid input is given
+errormessage = "Invalid input, please enter a positive integer:"  # Displayed when invalid input is given
 
 while True:
     try:
