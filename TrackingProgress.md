@@ -206,9 +206,9 @@
   <td>Python, Java</td>
 </tr>
 <tr>
-  <td align=center><p>  &#9989;</p></td>
-  <td>Sorting number</td>
-  <td></td>
+  <td align=center><p>  &#9203;</p></td>
+  <td><a href='./Sorting Number'>Sorting Number</a></td>
+  <td>Python</td>
 </tr>
 <tr>
   <td align=center><p> &#9203;</p></td>
