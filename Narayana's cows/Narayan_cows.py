@@ -23,11 +23,11 @@ while True:
         break
 
 
-def Narayanascows(n):
+def Narayanas_cows(n):
     if n < 3:
         return 1
     else:
-        return Narayanascows(n - 3) + Narayanascows(n - 1)
+        return Narayanas_cows(n - 3) + Narayanas_cows(n - 1)
 
 
-print(Narayanascows(n))
+print(Narayanas_cows(n))
