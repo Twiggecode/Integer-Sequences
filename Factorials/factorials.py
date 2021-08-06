@@ -5,7 +5,8 @@ By using memoization we can calculate factorials of those numbers
 step by step as shown in the main block.
 """
 
-def factorial(a:int, results={}):
+
+def factorial(a: int, results={}):
     """
     handle edge case
     a == 0 or 1 or -ve number
@@ -16,11 +17,11 @@ def factorial(a:int, results={}):
     if a == 0 or a == 1:
         return 1
 
-    if a<0:
+    if a < 0:
         return "Negative Integer is not allowed"
 
     # recursive call
-    result = a * factorial(a-1)
+    result = a * factorial(a - 1)
 
     # memoize the result
     results[a] = result
