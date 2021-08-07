@@ -16,7 +16,7 @@
     <tr>
       <th scope="col">Status</th>
       <th scope="col">Sequence Name</th>
-      <th scope="col">Language</th>
+      <th scope="col">Solution</th>
     </tr>
   </thead>
   <tbody>
