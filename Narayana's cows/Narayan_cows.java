@@ -4,7 +4,7 @@ First few terms of the sequence: 1, 1, 1, 2, 3, 4, 6, 9, 13, 19, ... */
 
 import java.util.*;
 
-class Narayan_cows 
+public class Narayan_cows 
 {  
     public static void main(String[] args)  { 
         System.out.print("Enter a whole number to return the element at that index in the Narayana's Cows sequence: "); 
