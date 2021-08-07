@@ -58,7 +58,7 @@ Click submit a pull request and leave a meaningful comment explaining the code y
 
 
 
-Alternatively, you can use the following git commands -
+Alternatively, you can use the following git commands:
 
 1. To clone the repository in your local system use
 
