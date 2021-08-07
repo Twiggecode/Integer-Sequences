@@ -138,7 +138,7 @@
 <tr>
   <td align=center><p> &#9203;</p></td>
   <td><a href="./Narayana's cows">Narayana's cows</a></td>
-  <td>Python, C++</td>
+  <td>Python, C++, Java</td>
 </tr>
 <tr>
   <td align=center><p> &#9203;</p></td>
