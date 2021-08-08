@@ -22,7 +22,7 @@
   <tbody>
   <tr>
     <td align=center><p> &#9203;</p></td>
-    <td ><a href="./kolakoski_sequence">Kolakoski sequence</a></td>
+    <td ><a href="./Kolakoski Sequence">Kolakoski sequence</a></td>
     <td>Python      </td>
   </tr>
   <tr>
@@ -297,7 +297,7 @@
 </tr>
 <tr>
   <td align=center><p> &#9203;</p></td>
-  <td>><a href="./Recaman's Sequence">Recamán's sequence</a></td>
+  <td><a href="./Recaman's Sequence">Recamán's sequence</a></td>
   <td>Python</td>
 </tr>
 <tr>
