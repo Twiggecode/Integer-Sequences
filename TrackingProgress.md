@@ -16,7 +16,7 @@
     <tr>
       <th scope="col">Status</th>
       <th scope="col">Sequence Name</th>
-      <th scope="col">Language</th>
+      <th scope="col">Solution</th>
     </tr>
   </thead>
   <tbody>
@@ -138,7 +138,7 @@
 <tr>
   <td align=center><p> &#9203;</p></td>
   <td><a href="./Narayana's cows">Narayana's cows</a></td>
-  <td>Python, C++</td>
+  <td>Python, C++, Java</td>
 </tr>
 <tr>
   <td align=center><p> &#9203;</p></td>
@@ -206,9 +206,9 @@
   <td>Python, Java</td>
 </tr>
 <tr>
-  <td align=center><p>  &#9989;</p></td>
-  <td>Sorting number</td>
-  <td></td>
+  <td align=center><p>  &#9203;</p></td>
+  <td><a href='./Sorting Number'>Sorting Number</a></td>
+  <td>Python</td>
 </tr>
 <tr>
   <td align=center><p> &#9203;</p></td>
