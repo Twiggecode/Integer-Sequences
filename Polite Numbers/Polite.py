@@ -9,19 +9,23 @@ count = 0
 n = int()
 
 # the loop is used to check if the number input by the user is a positive integer
-while (True):
+while True:
     try:
         n = int(input("Enter a number: "))
-        if (n > -1):
+        if n > -1:
             break
         print("Invalid number, please enter a new number.")
     except ValueError:
         print("Invalid input, please enter a number.")
         pass
 
-while (count<=n): # count the first n natural numbers that are not powers of 2, which will return the nth polite number
-    if((Math.log(i))/(Math.log(2)) != round((Math.log(i))/(Math.log(2)))): # check if a number is not power of 2
-        count+=1	# count will not increment if the number is a power of 2
-    i+=1
+while (
+    count <= n
+):  # count the first n natural numbers that are not powers of 2, which will return the nth polite number
+    if (Math.log(i)) / (Math.log(2)) != round(
+        (Math.log(i)) / (Math.log(2))
+    ):  # check if a number is not power of 2
+        count += 1  # count will not increment if the number is a power of 2
+    i += 1
 
-print(i-1)
+print(i - 1)
