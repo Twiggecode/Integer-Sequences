@@ -28,8 +28,7 @@
   <tr>
   <td align=center><p>  &#9203;</p></td>
   <td><a href="./Euler's totient function">Euler's totient function</a></td>
-    <td>Python      </td></td>
-  <td>C++</td>
+    <td>Python, C++     </td></td>
 </tr>
 <tr>
   <td align=center><p> &#9203;</p></td>
