@@ -311,9 +311,9 @@
   <td>        </td>
 </tr>
 <tr>
-  <td align=center><p>  &#9989;</p></td>
+  <td align=center><p>  &#9203;</p></td>
   <td>Alternating factorial</td>
-  <td>        </td>
+  <td>C++, Java, Python</td>
 </tr>
 <tr>
   <td align=center><p>  &#9989;</p></td>
@@ -427,7 +427,7 @@
 <tr>
   <td align=center><p>  &#9203;</p></td>
   <td><a href="./Baum-Sweet sequence">Baum–Sweet sequence</a></td>
-  <td>C++</td>
+  <td>C++, Python</td>
 </tr><tr>
   <td align=center><p>  &#9989;</p></td>
   <td>Gijswijt's sequence</td>
