@@ -27,6 +27,6 @@ while(n >= count):
         if(isDeficient(i)):
                 count += 1
         i += 1
-print(ans)
+print(n,"th value in Deficient Numbers is ",ans[n])
         
         
