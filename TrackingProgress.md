@@ -26,9 +26,10 @@
     <td>Python      </td>
   </tr>
   <tr>
-  <td align=center><p>  &#9989;</p></td>
-  <td>Euler's totient function</td>
-  <td></td>
+  <td align=center><p>  &#9203;</p></td>
+  <td><a href="./Euler's totient function">Euler's totient function</a></td>
+    <td>Python      </td></td>
+  <td>C++</td>
 </tr>
 <tr>
   <td align=center><p> &#9203;</p></td>
@@ -151,9 +152,9 @@
   <td>Python, Java</td>
 </tr>
 <tr>
-  <td align=center><p>  &#9989;</p></td>
-  <td>Lucky numbers</td>
-  <td></td>
+  <td align=center><p>  &#9203;</p></td>
+  <td><a href="./Lucky Number">Lucky numbers</a></td>
+  <td>Python</td>
 </tr>
 <tr>
   <td align=center><p>  &#9989;</p></td>
@@ -181,9 +182,9 @@
   <td></td>
 </tr>
 <tr>
-  <td align=center><p>  &#9989;</p></td>
-  <td>Wedderburn–Etherington numbers</td>
-  <td></td>
+  <td align=center><p>  &#9203;</p></td>
+  <td><a href="./Wedderburn–Etherington number">Wedderburn–Etherington numbers</a></td>
+  <td>Python, C++</td>
 </tr>
 <tr>
   <td align=center><p> &#9203;</p></td>
@@ -281,9 +282,9 @@
   <td>Python, C++, C, Java</td>
 </tr>
 <tr>
-  <td align=center><p>  &#9989;</p></td>
-  <td>Deficient numbers</td>
-  <td>        </td>
+  <td align=center><p>  &#9203;</p></td>
+  <td><a href="./Deficient Numbers">Deficient numbers</a></td>
+  <td>Python        </td>
 </tr>
 <tr>
   <td align=center><p>  &#9989;</p></td>
@@ -311,9 +312,9 @@
   <td>        </td>
 </tr>
 <tr>
-  <td align=center><p>  &#9989;</p></td>
-  <td>Alternating factorial</td>
-  <td>        </td>
+  <td align=center><p>  &#9203;</p></td>
+  <td><a href="./Alternating Factorial">Alternating factorial</a></td>
+  <td>Python, C++, Java        </td>
 </tr>
 <tr>
   <td align=center><p>  &#9989;</p></td>
@@ -426,7 +427,7 @@
 </tr>
 <tr>
   <td align=center><p>  &#9203;</p></td>
-  <td><a href="./Baum-Sweet sequence">Baum–Sweet sequence</a></td>
+  <td><a href="./Baum Sweet sequence">Baum Sweet sequence</a></td>
   <td>C++</td>
 </tr><tr>
   <td align=center><p>  &#9989;</p></td>
