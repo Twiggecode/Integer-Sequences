@@ -286,9 +286,9 @@
   <td>        </td>
 </tr>
 <tr>
-  <td align=center><p>  &#9989;</p></td>
+  <td align=center><p>  &#9203;</p></td>
   <td>Abundant number</td>
-  <td>        </td>
+  <td>Python, C++</td>
 </tr>
 <tr>
   <td align=center><p>  &#9989;</p></td>
