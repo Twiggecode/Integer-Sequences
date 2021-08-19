@@ -6,23 +6,23 @@
 <br>
 <h3>Sorted by original <a href="https://en.wikipedia.org/wiki/List_of_integer_sequences">wikipedia</a> table</h3>
 
-<!----> 
+<!---->
 <!---->
 <!---->
 
-   
+
 <table>
   <thead>
     <tr>
       <th scope="col">Status</th>
       <th scope="col">Sequence Name</th>
-      <th scope="col">Language</th>
+      <th scope="col">Solutions</th>
     </tr>
   </thead>
   <tbody>
   <tr>
     <td align=center><p> &#9203;</p></td>
-    <td ><a href="./kolakoski_sequence">Kolakoski sequence</a></td>
+    <td ><a href="./Kolakoski Sequence">Kolakoski sequence</a></td>
     <td>Python      </td>
   </tr>
   <tr>
@@ -38,7 +38,7 @@
 <tr>
   <td align=center><p> &#9203;</p></td>
   <td><a href="./Prime Numbers">Prime numbers</a></td>
-  <td>Python, C++, Java</td>
+  <td>Python, C++, Java, Rust</td>
 </tr>
 <tr>
   <td align=center><p>  &#9989;</p></td>
@@ -51,9 +51,9 @@
   <td>Python, C++, C#, C, Java, Go, Ruby</td>
 </tr>
 <tr>
-  <td align=center><p>  &#9989;</p></td>
-  <td>Sylvester's sequence</td>
-  <td></td>
+  <td align=center><p> &#9203;</p></td>
+  <td><a href="./Sylvester Sequence">Sylvester's sequence</a></td>
+  <td>Python</td>
 </tr>
 <tr>
   <td align=center><p> &#9203;</p></td>
@@ -98,7 +98,7 @@
 <tr>
   <td align=center><p> &#9203;</p></td>
   <td><a href="./Factorials">Factorials</a></td>
-  <td>Python, C++, Java</td>
+  <td>Python, C++, Java, Scala</td>
 </tr>
 <tr>
   <td align=center><p>  &#9989;</p></td>
@@ -138,7 +138,7 @@
 <tr>
   <td align=center><p> &#9203;</p></td>
   <td><a href="./Narayana's cows">Narayana's cows</a></td>
-  <td>Python, C++</td>
+  <td>Python, C++, Java</td>
 </tr>
 <tr>
   <td align=center><p> &#9203;</p></td>
@@ -206,9 +206,9 @@
   <td>Python, Java</td>
 </tr>
 <tr>
-  <td align=center><p>  &#9989;</p></td>
-  <td>Sorting number</td>
-  <td></td>
+  <td align=center><p>  &#9203;</p></td>
+  <td><a href='./Sorting Number'>Sorting Number</a></td>
+  <td>Python</td>
 </tr>
 <tr>
   <td align=center><p> &#9203;</p></td>
@@ -286,9 +286,9 @@
   <td>        </td>
 </tr>
 <tr>
-  <td align=center><p>  &#9989;</p></td>
-  <td>Abundant number</td>
-  <td>        </td>
+  <td align=center><p>  &#9203;</p></td>
+  <td><a href="./Abundant Numbers">Abundant number</a></td>
+  <td>Python, C++</td>
 </tr>
 <tr>
   <td align=center><p>  &#9989;</p></td>
@@ -297,7 +297,7 @@
 </tr>
 <tr>
   <td align=center><p> &#9203;</p></td>
-  <td>><a href="./Recaman's Sequence">Recamán's sequence</a></td>
+  <td><a href="./Recaman's Sequence">Recamán's sequence</a></td>
   <td>Python</td>
 </tr>
 <tr>
@@ -311,9 +311,9 @@
   <td>        </td>
 </tr>
 <tr>
-  <td align=center><p>  &#9989;</p></td>
+  <td align=center><p>  &#9203;</p></td>
   <td>Alternating factorial</td>
-  <td>        </td>
+  <td>C++, Java, Python</td>
 </tr>
 <tr>
   <td align=center><p>  &#9989;</p></td>
@@ -336,13 +336,13 @@
   <td>        </td>
 </tr>
 <tr>
-  <td align=center><p>  &#9989;</p></td>
-  <td>Farey sequence numerators</td>
-  <td>        </td>
+  <td align=center><p> &#9203;</p></td>
+  <td><a href='./Farey Sequence Numerators'>Farey Sequence Numerators</a></td>
+  <td>Python        </td>
 </tr><tr>
-  <td align=center><p>  &#9989;</p></td>
-  <td>Farey sequence denominators</td>
-  <td>        </td>
+  <td align=center><p> &#9203;</p></td>
+  <td><a href='./Farey Sequence Denominators'>Farey Sequence Denominators</a></td>
+  <td>Python        </td>
 </tr>
 <tr>
   <td align=center><p> &#9203;</p></td>
@@ -370,14 +370,14 @@
   <td>        </td>
 </tr>
 <tr>
-  <td align=center><p>  &#9989;</p></td>
-  <td>Thue–Morse sequence</td>
-  <td>        </td>
+  <td align=center><p>  &#9203;</p></td>
+  <td><a href="./Thue-Morse sequence">Thue–Morse sequence</a></td>
+  <td>Python</td>
 </tr>
 <tr>
-  <td align=center><p>  &#9989;</p></td>
-  <td>Regular paperfolding sequence</td>
-  <td>        </td>
+  <td align=center><p>  &#9203;</p></td>
+  <td><a href="./Regular Paperfolding Sequence">Regular paperfolding sequence</a></td>
+  <td>Python</td>
 </tr>
 <tr>
   <td align=center><p>  &#9989;</p></td>
@@ -425,9 +425,9 @@
   <td>        </td>
 </tr>
 <tr>
-  <td align=center><p>  &#9989;</p></td>
-  <td>Baum–Sweet sequence</td>
-  <td>        </td>
+  <td align=center><p>  &#9203;</p></td>
+  <td><a href="./Baum-Sweet sequence">Baum–Sweet sequence</a></td>
+  <td>C++, Python</td>
 </tr><tr>
   <td align=center><p>  &#9989;</p></td>
   <td>Gijswijt's sequence</td>
