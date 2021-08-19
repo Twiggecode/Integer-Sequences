@@ -1,14 +1,15 @@
 // C++ implementation of Juggler Sequence
-#include <bits/stdc++.h>
-using namespace std;
+#include <iostream>
+#include <cmath>
+#include <math.h>
  
 // This function prints the juggler Sequence
-void printJuggler(long long n)
-{
+void printJuggler(long long n) {
+    
     long long a = n;
  
     // print the first term
-    cout << a << " ";
+    std::cout << a << " ";
  
     // calculate terms until
     // last term is not 1
@@ -18,29 +19,31 @@ void printJuggler(long long n)
  
         // Check if previous term
         // is even or odd
-        if (a % 2 == 0)
+        if (!(a % 2)){
  
             // calculate next term
             b = floor(sqrt(a));
+            
+        }
  
-        else
+        else{ 
  
             // for odd previous term
             // calculate next term
-            b = floor(sqrt(a) *
-                      sqrt(a) * sqrt(a));
- 
-        cout << b << " ";
+            b = floor(sqrt(pow(a, 3.0)));
+
+        }
+        std::cout << b << " ";
         a = b;
     }
 }
  
 // Driver Code
-int main()
-{   int n;
+int main() {
+    int n;
     
-    cin>>n; // enter the starting number for the Sequence
+    std::cin >> n; // enter the starting number for the Sequence
+
     printJuggler(n);
 
-   
 }
