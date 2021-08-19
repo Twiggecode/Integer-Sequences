@@ -26,9 +26,9 @@
     <td>Python      </td>
   </tr>
   <tr>
-  <td align=center><p>  &#9989;</p></td>
-  <td>Euler's totient function</td>
-  <td></td>
+  <td align=center><p>  &#9203;</p></td>
+  <td><a href="./Euler's totient function">Euler's totient function</a></td>
+  <td>C++</td>
 </tr>
 <tr>
   <td align=center><p> &#9203;</p></td>
@@ -81,9 +81,9 @@
   <td>Python, C++, C#, Java</td>
 </tr>
 <tr>
-  <td align=center><p>  &#9989;</p></td>
-  <td>Euler zigzag number</td>
-  <td></td>
+  <td align=center><p>  &#9203;</p></td>
+  <td><a href="./Euler's Zig-Zag Numbers">Euler zigzag number</a></td>
+  <td>Python</td>
 </tr>
 <tr>
   <td align=center><p> &#9203;</p></td>
@@ -162,7 +162,7 @@
 </tr>
 <tr>
   <td align=center><p>  &#9203;</p></td>
-  <td>Central binomial coefficients</td>
+  <td><a href="./Central Binomial Coefficients">Central binomial coefficients</a></td>
   <td>Python</td>
 </tr>
 <tr>
@@ -181,9 +181,9 @@
   <td></td>
 </tr>
 <tr>
-  <td align=center><p>  &#9989;</p></td>
-  <td>Wedderburn–Etherington numbers</td>
-  <td></td>
+  <td align=center><p> &#9203;</p></td>
+  <td><a href="./Wedderburn–Etherington number">Wedderburn–Etherington numbers</a></td>
+  <td>Python, C++</td>
 </tr>
 <tr>
   <td align=center><p> &#9203;</p></td>
@@ -216,9 +216,9 @@
   <td>Python, C++, Java</td>
 </tr>
 <tr>
-  <td align=center><p>  &#9989;</p></td>
-  <td>Primorials</td>
-  <td></td>
+  <td align=center><p>  &#9203;</p></td>
+  <td><a href="./Primorials">Primorials</a></td>
+  <td>Python, Java</td>
 </tr>
 <tr>
   <td align=center><p>  &#9989;</p></td>
@@ -281,9 +281,9 @@
   <td>Python, C++, C, Java</td>
 </tr>
 <tr>
-  <td align=center><p>  &#9989;</p></td>
-  <td>Deficient numbers</td>
-  <td>        </td>
+  <td align=center><p>  &#9203;</p></td>
+  <td><a href="./Deficient Numbers">Deficient numbers</a></td>
+  <td> Python       </td>
 </tr>
 <tr>
   <td align=center><p>  &#9203;</p></td>
