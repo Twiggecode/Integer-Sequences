@@ -312,7 +312,7 @@
 </tr>
 <tr>
   <td align=center><p>  &#9203;</p></td>
-  <td>Alternating factorial</td>
+  <td><a href="./Alternating Factorial">Alternating factorial</a></td>
   <td>C++, Java, Python</td>
 </tr>
 <tr>
