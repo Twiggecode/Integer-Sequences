@@ -1,25 +1,27 @@
-""" Catalan Numbers (sequence A000108 in the OEIS) """
-""" (2n)! / ((n + 1)!n!) """
-# The first ten  (starting with n=0 are: 1, 1, 2, 5, 14, 42, 132, 429, 1430, 4862)
-
-# A recursive function to
-# find nth catalan number
+# A dynamic programming based function to find nth
+# Catalan number
 def catalan(n):
-	# Base Case
-	if n <= 1:
-		return 1
+    if (n == 0 or n == 1):
+        return 1
 
-	# Catalan(n) is the sum
-	# of catalan(i)*catalan(n-i-1)
-	res = 0
-	for i in range(n):
-		res += catalan(i) * catalan(n-i-1)
+    # Table to store results of subproblems
+    catalan = [0 for i in range(n + 1)]
+
+    # Initialize first two values in table
+    catalan[0] = 1
+    catalan[1] = 1
+
+    # Fill entries in catalan[] using recursive formula
+    for i in range(2, n + 1):
+        catalan[i] = 0
+        for j in range(i):
+            catalan[i] = catalan[i] + catalan[j] * catalan[i - j - 1]
+
+    # Return last entry
+    return catalan[n]
 
 
-def Catalan_Numbers(n):
-    formula = math.factorial(2 * n) / (math.factorial(n + 1) * math.factorial(n))
-    return "C{} = {}".format(n, formula)
-
-
-print(Catalan_Numbers(n=int(input("Enter a Number: "))))
-
+if __name__ == '__main__':
+    n = int(input("Enter the Number:"))
+    for i in range(n):
+        print(catalan(i))
