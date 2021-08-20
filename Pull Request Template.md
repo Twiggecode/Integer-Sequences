@@ -1,7 +1,5 @@
 # Pull Request Template
 
-###  Example:
-
 - [x] I read the README file 
 - [ ]  I've checked that the code is compiling and working
 - [ ]  I have added appropriate comments in-between the code for better understanding of the algorithm
