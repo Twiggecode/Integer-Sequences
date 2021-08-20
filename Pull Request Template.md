@@ -1,7 +1,7 @@
 # Pull Request Template
 
-- [x] I read the README file 
-- [ ]  I've checked that the code is compiling and working
+- [x] I read the [README](https://github.com/Twiggecode/Integer-Sequences/blob/main/README.md) file 
+- [ ]  I have checked that the code is compiling and working
 - [ ]  I have added appropriate comments in-between the code for better understanding of the algorithm
 - [ ]  I've updated the changes in [TrackingProgress.md](https://github.com/Twiggecode/Integer-Sequences/blob/main/TrackingProgress.md)
 
