@@ -7,7 +7,7 @@ nth = input(
     "Please enter a positive integer to return its value in the Narayana's cows sequence:"
 )
 
-errormessage = "Invalid input, please enter a positive integer:"  # Displyed when invalid input is given
+errormessage = "Invalid input, please enter a positive integer:"  # Displayed when invalid input is given
 
 while True:
     try:
@@ -23,11 +23,11 @@ while True:
         break
 
 
-def Narayancows(n):
+def Narayanas_cows(n):
     if n < 3:
         return 1
     else:
-        return Narayanascows(n - 3) + Narayanascows(n - 1)
+        return Narayanas_cows(n - 3) + Narayanas_cows(n - 1)
 
 
-print(Narayancows(n))
+print(Narayanas_cows(n))

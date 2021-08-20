@@ -1,5 +1,9 @@
+
 # A dynamic programming based function to find nth
 # Catalan number
+
+
+
 def catalan(n):
     if (n == 0 or n == 1):
         return 1
