@@ -121,9 +121,9 @@
   <td></td>
 </tr>
 <tr>
-  <td align=center><p>  &#9989;</p></td>
-  <td>Perfect numbers</td>
-  <td></td>
+  <td align=center><p> &#9203;</p></td>
+  <td><a href="./Perfect numbers">Perfect numbers</a></td>
+  <td>Python</td>
 </tr>
 <tr>
   <td align=center><p>  &#9989;</p></td>
