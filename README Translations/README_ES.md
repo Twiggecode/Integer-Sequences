@@ -12,7 +12,7 @@ Este enlace a wikipedia contiene una lista de muchas secuencias de enteros notab
 
 Si alguien necesita implementar una de las más oscuras secuencias de enteros listadas en la página de wikipedia dentro de su propio programa, es probable que tengan que desarrollar sus propios algoritmos. Cualquiera es libre de usar el código de este proyecto en su propio software, no hay necesidad de pedir permiso porque este proyecto no usa licencia.
 
-## How to Contribute
+## Cómo Contribuir
 
 Echa un vistazo al enlace de wikipedia https://en.wikipedia.org/wiki/List_of_integer_sequences
 
