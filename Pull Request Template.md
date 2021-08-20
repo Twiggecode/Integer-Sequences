@@ -10,7 +10,7 @@
 *example for table*
 <!-- 
 This is an example of sequence submission.
-Replace the current data with the sum up of your submission, or delete the table if it is not necessary
+Replace the current details with the details of your submission, or delete the table if it is not necessary
 -->
 
 | Sequence name | Added new \ Update existing | Language | Added new \ fixed issues |
