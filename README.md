@@ -8,6 +8,7 @@
         <li><a href="./README Translations\README_KR.md"> Korean </a></li>
         <li><a href="./README Translations\README_ES.md"> Spanish </a></li>
         <li><a href="./README Translations\README_RO.md"> Romanian </a></li>
+        <li><a href="./README Translations\README_PT.md"> Portuguese </a></li>
     </ul>
 </details>
 <!-- Do not translate this -->
