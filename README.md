@@ -41,7 +41,7 @@ If no code for a specific integer sequence exists in the project repository, you
 
 Look at code that already exists within the project repository, use this to guide you and help you develop your own algorithm.
 
-After you are happy with the code you have developed, submit a pull request using the pull request template. I will then review your code to ensure that it works as expected, and then add it to the project repository. If your code produces the correct outputs, it will be always be added to the project repository, regardless of the coding standards/code quality, and regardless of the speed of the code.
+After you are happy with the code you have developed, submit a pull request using the pull request template, and also update the tracking list. I will then review your code to ensure that it works as expected, and then add it to the project repository. If your code produces the correct outputs, it will be always be added to the project repository, regardless of the coding standards/code quality, and regardless of the speed of the code.
 
 You can also modify and improve existing code within the project, submit a pull request and I will review your changes. For example, you can improve the speed of code, or improve the coding standards by adding comments, spaces, changing variable names, etc.
 
