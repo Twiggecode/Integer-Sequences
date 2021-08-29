@@ -59,8 +59,6 @@ Klik "Submit a pull request" dan tinggalkan sebuah komentar bermakna menjelaskan
 
 Secara alternatif, Anda dapat menggunakan perintah _git_ berikut:
 
-<!-- Alternatively, you can use the following git commands: -->
-
 1. Untuk meng-klon _repository_ ke sistem lokal Anda, gunakan
 
 `git clone repo-link folder_name`
