@@ -1,6 +1,8 @@
 import math
 
 def divsum(n):
+        if n == 1:
+                return 0
         res = 0
         i = 2
         while( i <= math.sqrt(n)):
