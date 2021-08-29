@@ -9,14 +9,17 @@ public class SumOfProperDivisors {
     }
 
     private static int seq(int n) {
+        if (n == 1) {
+            return 0;
+        }
         int res = 0;
         int i = 2;
-        while(i <= Math.sqrt(n)){
-            if(n % i == 0){
-                res = (i == (n/i)) ? res+i : res + (i + (n/i));
+        while (i <= Math.sqrt(n)) {
+            if (n % i == 0) {
+                res = (i == (n / i)) ? res + i : res + (i + (n / i));
             }
             i += 1;
         }
-        return (res+1);
+        return (res + 1);
     }
 }
