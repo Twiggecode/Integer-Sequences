@@ -4,11 +4,12 @@
 <strong> Read this guide in other languages </strong>
 </summary>
     <ul>
-        <li><a href="./README.md"> English </a></li>
+        <li><a href="https://github.com/Twiggecode/Integer-Sequences/blob/main/README.md"> English </a></li>
         <li><a href="./README Translations\README_KR.md"> Korean </a></li>
         <li><a href="./README Translations\README_ES.md"> Spanish </a></li>
         <li><a href="./README Translations\README_RO.md"> Romanian </a></li>
         <li><a href="./README Translations\README_PT.md"> Portuguese </a></li>
+        <li><a href="./README Translations\README_ID.md"> Indonesian </a></li>
     </ul>
 </details>
 <!-- Do not translate this -->
