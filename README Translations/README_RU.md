@@ -10,7 +10,6 @@
         <li><a href="./README Translations\README_RO.md"> Romanian </a></li>
         <li><a href="./README Translations\README_PT.md"> Portuguese </a></li>
         <li><a href="./README Translations\README_ID.md"> Indonesian </a></li>
-        <li><a href="./README Translations\README_ID.md"> Indonesian </a></li>
         
     </ul>
 </details>
