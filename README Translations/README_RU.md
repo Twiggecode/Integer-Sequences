@@ -11,7 +11,7 @@
         <li><a href="./README Translations\README_PT.md"> Portuguese </a></li>
         <li><a href="./README Translations\README_ID.md"> Indonesian </a></li>
         
-    </ul>
+    
 </details>
 <!-- Do not translate this -->
 
