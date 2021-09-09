@@ -248,7 +248,7 @@
 <tr>
   <td align=center><p> &#9203;</p></td>
   <td><a href="./Ulam Sequence">Ulam number</a></td>
-  <td>Python</td>
+  <td>CPP, Python</td>
 </tr>
 <tr>
   <td align=center><p>  &#9989;</p></td>
@@ -263,7 +263,7 @@
 <tr>
   <td align=center><p> &#9203;</p></td>
   <td><a href="./Woodall Numbers">Woodall numbers</a></td>
-  <td>Python, Java</td>
+  <td>C, Python, Java</td>
 </tr>
 <tr>
   <td align=center><p>  &#9989;</p></td>
@@ -293,7 +293,7 @@
 <tr>
   <td align=center><p>  &#9989;</p></td>
   <td>Untouchable numbers</td>
-  <td>        </td>
+  <td>CPP, Python</td>
 </tr>
 <tr>
   <td align=center><p> &#9203;</p></td>
@@ -372,12 +372,12 @@
 <tr>
   <td align=center><p>  &#9203;</p></td>
   <td><a href="./Thue-Morse sequence">Thue–Morse sequence</a></td>
-  <td>Python</td>
+  <td>C++, Java, Python</td>
 </tr>
 <tr>
   <td align=center><p>  &#9203;</p></td>
   <td><a href="./Regular Paperfolding Sequence">Regular paperfolding sequence</a></td>
-  <td>Python</td>
+  <td>C++, Java, Python</td>
 </tr>
 <tr>
   <td align=center><p>  &#9989;</p></td>
