@@ -1,17 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<nav>
+<h1>Tracking Sequences Progress</h1>
+<br>
+<p> &#9989; Open</p>
+<p> &#9203; In progress</p>
+<p> &#9940; Closed</p>
+<br>
+<h3>Sorted by original <a href="https://en.wikipedia.org/wiki/List_of_integer_sequences">wikipedia</a> table</h3>
 
-</nav>
-<body>
-
-<<<<<<< HEAD
 <!---->
 <!---->
 <!---->
@@ -483,7 +477,6 @@
 
 </tbody>
 </table>
-=======
->>>>>>> d3805b8cdea4322ad59de581c5c034934bc4f48f
 </body>
-</html>
+
+
