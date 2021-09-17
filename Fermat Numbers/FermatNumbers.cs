@@ -4,6 +4,7 @@ namespace IntegerSequences.FermatNumbers
 {
     class FermatNumbers
     {
+        // The first few Fermat numbers are: 3, 5, 17, 257, 65537, 4294967297, 18446744073709551617, 340282366920938463463374607431768211457
         private static double Fermat(int n)
         {
             return (Math.Pow(2, Math.Pow(2, n))) + 1;
@@ -11,12 +12,11 @@ namespace IntegerSequences.FermatNumbers
 
         public static void Main(string[] args)
         {
-            // This method returns the nth element of the Fermat numbers where n is a positive integer (or zero) input by the user
-            Console.WriteLine("Please enter an intenger n where n >= 0");
+            Console.WriteLine("Please enter an integer n where n >= 0");
             bool isValid = false;
             int nTH = 0;
             
-            while(!isValid)
+            while(!isValid) // Check if user input an integer. If not, tries again until an integer is inputted 
             {
                 try
                 {
@@ -25,7 +25,7 @@ namespace IntegerSequences.FermatNumbers
                 }
                 catch (FormatException)
                 {
-                    Console.WriteLine("Please enter an intenger n where n >= 0");
+                    Console.WriteLine("Please enter an integer n where n >= 0");
                     continue;
                 }
                 isValid = true;
