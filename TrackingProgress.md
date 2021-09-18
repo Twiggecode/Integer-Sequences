@@ -113,7 +113,7 @@
 <tr>
   <td align=center><p> &#9203;</p></td>
   <td><a href="./Fermat Numbers">Fermat numbers</a></td>
-  <td>Python, C++, Java</td>
+  <td>Python, C++, Java, C#</td>
 </tr>
 <tr>
   <td align=center><p>  &#9989;</p></td>
