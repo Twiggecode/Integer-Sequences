@@ -1,24 +1,26 @@
-#pragma once
 #include <iostream>
 
 /*
-- PRIME MUNBERS - 
+- PRIME MUNBERS -
 Example:
 Primes: 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, ...
 Is_Prime(21) --> will return 'false' value
 Is_Prime(7) --> will return 'true' value
 */
 
-// Boolean function that retutn TRUE if the input is Prime, else return FALSE
+// Boolean function that returns true if the input is Prime, else returns false
 bool Is_Prime(int n) {
 
-    if (n <= 1 || (n % 2 == 0 && n!=2))               // If less than 2, or even number, and not 2 --> not prime
+    // If less than 2, or even number, and not 2 --> not prime
+    if (n <= 1 || (n % 2 == 0 && n!=2))
         return false;
 
-    if (n == 2)                                    // 2 is prime
+    // 2 is prime
+    if (n == 2)
          return true;
 
-    for (int i = n / 2 + 1; i > 1; i = i - 2)     // Any valid divisor, if exist, must be odd and <= n\2 
+    // Any valid divisor, if exist, must be odd and <= n\2
+    for (int i = n / 2 + 1; i > 1; i = i - 2)
         if (!(n % i))
             return false;
 
