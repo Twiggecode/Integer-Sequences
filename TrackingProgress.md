@@ -263,7 +263,7 @@
 <tr>
   <td align=center><p> &#9203;</p></td>
   <td><a href="./Woodall Numbers">Woodall numbers</a></td>
-  <td>C, Python, Java</td>
+  <td>C, C#, Python, Java</td>
 </tr>
 <tr>
   <td align=center><p>  &#9989;</p></td>
