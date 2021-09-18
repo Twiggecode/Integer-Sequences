@@ -1,29 +1,27 @@
 #include <stdio.h>
 
 int main() {
-    int isItAbundant = 18;
-    int sumDivisors = 0;
+    int isItAbundant = 1;
+    int max = 271;
 
-    for (int i = 1; i < (isItAbundant + 1); ++i) {
-        if (isItAbundant % i == 0) {
-            sumDivisors += i;
-        }
-    }
+    do
+    {
+        int sumDivisors = 0;
 
-    printf("%d - %d - %d\n", sumDivisors, isItAbundant, 2 * isItAbundant);
+        for (int i = 1; i < (isItAbundant + 1); ++i)
+            sumDivisors += (isItAbundant % i == 0) ? i : 0;
 
-    if (sumDivisors > (2 * isItAbundant)) {
-        printf("%d is Abundant\n", isItAbundant);
-    }
-    else if (sumDivisors == isItAbundant) {
-        printf("%d is Perfect\n", isItAbundant);
-    }
-    else if (sumDivisors < (2 * isItAbundant)) {
-        printf("%d is Deficient\n", isItAbundant);
-    }
-    else {
-        printf("ERROR\n");
-    }
+        if (sumDivisors > (2 * isItAbundant))
+            printf("%d is Abundant\n", isItAbundant);
+        else if (sumDivisors == (2 * isItAbundant))
+            printf("%d is Perfect\n", isItAbundant);
+        else if (sumDivisors < (2 * isItAbundant))
+            printf("%d is Deficient\n", isItAbundant);
+        else
+            printf("ERROR\n");
+
+    } while (++isItAbundant < max);
 
     return 0;
 }
+
