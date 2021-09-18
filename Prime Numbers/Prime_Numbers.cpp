@@ -12,16 +12,23 @@ Is_Prime(7) --> will return 'true' value
 bool Is_Prime(int n) {
 
     // If less than 2, or even number, and not 2 --> not prime
-    if (n <= 1 || (n % 2 == 0 && n!=2))
+    if (n < 2 || (n % 2 == 0 && n!=2))
         return false;
 
     // 2 is prime
     if (n == 2)
          return true;
 
-    // Any valid divisor, if exist, must be odd and <= n\2
-    for (int i = n / 2 + 1; i > 1; i = i - 2)
-        if (!(n % i))
+    /**
+      Iterate from 3 to half the user's entered number.
+      Once we are above half of the entered number (n) no
+      number divides evenly into n and it's therefore prime.
+      We start at 3 since we have already checked if n = 2.
+      We increment by 2 since we have already checked if the
+      number is even.
+    */
+    for (int i = 3; i < (n / 2); i += 2)
+        if (n % i == 0)
             return false;
 
     return true;
