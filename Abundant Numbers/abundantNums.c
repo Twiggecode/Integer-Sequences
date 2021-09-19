@@ -49,7 +49,6 @@ void printAbundantNumbers(int startNum, int stopNum) {
 
         ++startNum;
     }
-
 }
 
 /**
