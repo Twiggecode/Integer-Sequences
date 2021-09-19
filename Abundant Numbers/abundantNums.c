@@ -1,9 +1,13 @@
 #include <stdio.h>
 /**
+ * printAbundantNumber()
  * Calculates and prints all abundant numbers between a start value and stop
  * value.
+ *
+ * returnIfAbundant()
  * Will return an int 1 (true) if a passed number is abundant and an int 0
  * (false) if a passed number is not abundant.
+ *
  * A number is abundant if sum(m) > 2m, where sum(m) is the summation of all
  * of m's divisors.
  */
@@ -15,39 +19,16 @@ void printAbundantNumbers(int start, int stop);
 int returnIfAbundant();
 
 int main() {
-    int start, stop;
-    getStartStop(&start, &stop);
+    int start, stop; // Initialize variables
+    getStartStop(&start, &stop); // Function to get users numbers
+    printAbundantNumbers(start, stop); // Prints abundance in the range start - stop
 
-    printAbundantNumbers(start, stop); // Prints abundance int a range
-
-    int checkAbundance;
-    getCheckNum(&checkAbundance);
-
-    int isAbundant = returnIfAbundant(checkAbundance); // Returns abundance
-    printf("%d\n", isAbundant);
+    int checkAbundance; // Initialize variable
+    getCheckNum(&checkAbundance); // Function to get users number
+    int isAbundant = returnIfAbundant(checkAbundance); // Returns 1 or 0 based on abundance
+    printf("%d\n", isAbundant); // Prints a 1 if the passed number is abundant
 
     return 0;
-}
-
-/**
- * Prompts user for the starting and stoping number
- * to check for abundance in a range of numbers
- */
-void getStartStop(int* pStart, int* pStop) {
-    printf("Enter your starting number: ");
-    scanf("%d", &*pStart);
-
-    printf("Enter your stopping number: ");
-    scanf("%d", &*pStop);
-}
-
-/**
- * Prompts the user to enter a number they want
- * checked for abundance
- */
-void getCheckNum(int* pCheckNum) {
-    printf("Enter the number to check for abundance: ");
-    scanf("%d", &*pCheckNum);
 }
 
 /**
@@ -81,4 +62,25 @@ int returnIfAbundant(int num) {
         divisors += (num % i == 0) ? i : 0; // Checks if i is a divisor and sums it.
 
     return divisors > (2 * num);
+}
+
+/**
+ * Prompts user for the starting and stoping number
+ * to check for abundance in a range of numbers
+ */
+void getStartStop(int* pStart, int* pStop) {
+    printf("Enter your starting number: ");
+    scanf("%d", &*pStart);
+
+    printf("Enter your stopping number: ");
+    scanf("%d", &*pStop);
+}
+
+/**
+ * Prompts the user to enter a number they want
+ * checked for abundance
+ */
+void getCheckNum(int* pCheckNum) {
+    printf("Enter the number to check for abundance: ");
+    scanf("%d", &*pCheckNum);
 }
