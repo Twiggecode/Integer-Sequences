@@ -1,8 +1,15 @@
 #include <stdio.h>
+/**
+ * Calculates and prints all abundant numbers between a start value and stop
+ * value.
+ * Will return an int 1 (true) if a passed number is abundant and an int 0
+ * (false) if a passed number is not abundant.
+ * A number is abundant if sum(m) > 2m, where sum(m) is the summation of all
+ * of m's divisors.
+ */
 
 void printAbundantNumbers(int start, int stop);
-//int returnIfAbundant();
-//int returnAbundantNumber();
+int returnIfAbundant();
 
 int main() {
     printf("Enter your starting number: ");
@@ -13,11 +20,14 @@ int main() {
     int stop;
     scanf("%d", &stop);
 
-    printAbundantNumbers(start, stop);
+    printAbundantNumbers(start, stop); // Prints abundance int a range
 
-    // printf("Enter the number to check for abundance: ");
-    // int checkAbundance;
-    // scanf("%d", &checkAbundance);
+    printf("Enter the number to check for abundance: ");
+    int checkAbundance;
+    scanf("%d", &checkAbundance);
+
+    int isAbundant = returnIfAbundant(checkAbundance); // Returns abundance
+    printf("%d\n", isAbundant);
 
     return 0;
 }
@@ -32,7 +42,7 @@ void printAbundantNumbers(int startNum, int stopNum) {
     while (startNum <= stopNum) {
         int divisors = 0;
 
-        for (int i = 1; i < startNum + 1; ++i) // Iterate all possible divisords.
+        for (int i = 1; i < startNum + 1; ++i) // Iterate all possible divisors.
             divisors += (startNum % i == 0) ? i : 0; // Checks if i is a divisor and sums it.
 
         if (divisors > (2 * startNum)) // Prints if abundance is met.
@@ -43,3 +53,15 @@ void printAbundantNumbers(int startNum, int stopNum) {
 
 }
 
+/**
+ * Returns a 1 if the passed num is abundant.
+ * Returns a 0 if the passed num is not abundant.
+ */
+int returnIfAbundant(int num) {
+    int divisors = 0;
+
+    for (int i = 1; i < num + 1; ++i) // Iterate all possible divisors.
+        divisors += (num % i == 0) ? i : 0; // Checks if i is a divisor and sums it.
+
+    return divisors > (2 * num);
+}
