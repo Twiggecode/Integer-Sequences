@@ -1,13 +1,24 @@
 #!/usr/bin/env python3
+# TODO: Comment code
 
 
 def pow_two() -> int:
+    """[summary]
+
+    Returns:
+        int: [description]
+    """
     return lambda n: 2 ** n
 
 
 def pow_series(end: int) -> None:
+    """[summary]
+
+    Args:
+        end (int): [description]
+    """
     series = pow_two()
-    for i in range(0, end):
+    for i in range(0, (end + 1)):
         print(series(i))
 
 
