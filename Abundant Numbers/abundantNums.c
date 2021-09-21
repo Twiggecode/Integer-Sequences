@@ -15,7 +15,7 @@
 // Functions declarations
 void getStartStop(int*, int*);
 void getCheckNum(int*);
-void printAbundantNumbers(int start, int stop);
+void printAbundantNumbers(int, int);
 int returnIfAbundant();
 
 int main() {
@@ -33,7 +33,7 @@ int main() {
 
 /**
  * This will print all abundant number between
- * star and stop. A number is abundant if
+ * start and stop. A number is abundant if
  * sum(m) > 2m: where sum(m) is the summation of all
  * the divisors of m.
  */
