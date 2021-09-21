@@ -1,14 +1,16 @@
 #!/usr/bin/env python3
 
 
-def pow_two(n: int) -> int:
-    return lambda n: n ** 2
+def pow_two() -> int:
+    return lambda m: 2 ** m
 
 
 def main():
-    foo = pow_two(2)
-    for i in range(5):
-        print(foo(i))
+    foo = pow_two()
+    print(foo(2))
+    print(foo(8))
+    print(foo(16))
+    print(foo(64))
 
 
 if __name__ == '__main__':
