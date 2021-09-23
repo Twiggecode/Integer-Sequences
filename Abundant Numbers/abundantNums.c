@@ -15,8 +15,13 @@
 // Functions declarations
 void getStartStop(int*, int*);
 void getCheckNum(int*);
+
+// Abundant number functions
 void printAbundantNumbers(int, int);
 int returnIfAbundant();
+
+// Deficient number functions
+void printDeficientNumbers(int, int);
 
 int main() {
     int start, stop; // Initialize variables
@@ -32,9 +37,9 @@ int main() {
 }
 
 /**
- * This will print all abundant number between
+ * This will print all abundant numbers between
  * start and stop. A number is abundant if
- * sum(m) > 2m: where sum(m) is the summation of all
+ * sum(m) > 2m, where sum(m) is the summation of all
  * the divisors of m.
  */
 void printAbundantNumbers(int startNum, int stopNum) {
@@ -45,7 +50,7 @@ void printAbundantNumbers(int startNum, int stopNum) {
             divisors += (startNum % i == 0) ? i : 0; // Checks if i is a divisor and sums it.
 
         if (divisors > (2 * startNum)) // Prints if abundance is met.
-            printf("%d is abundant\n", startNum);
+            printf("%d is abundant.\n", startNum);
 
         ++startNum;
     }
@@ -62,6 +67,26 @@ int returnIfAbundant(int num) {
         divisors += (num % i == 0) ? i : 0; // Checks if i is a divisor and sums it.
 
     return divisors > (2 * num);
+}
+
+/**
+ * This will print all deficient numbers between
+ * start and stop. A number is deficient if
+ * sum(m) < 2m, where sum(m) is the summation of all
+ * the divisors of m. (Note: It's the opposite of an
+ * abundant number)
+ */
+void printDeficientNumbers(int startNum, int stopNum) {
+    while (startNum <= stopNum) {
+        int divisors = 0;
+
+        for (int i = 1; i < startNum + 1; ++i) // Iterate all possible divisors.
+            divisors += (startNum % i == 0) ? i : 0; // Checks if i is a divisor and sums it.
+
+        if (divisors < (2 * startNum)) // Prints if deficiency is met.
+            printf("%d is deficient.\n", startNum);
+
+        ++startNum;
 }
 
 /**
