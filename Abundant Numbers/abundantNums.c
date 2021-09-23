@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * printAbundantNumber()
+ * printAbundantNumbers()
  * Calculates and prints all abundant numbers between a start value and stop
  * value.
  *
