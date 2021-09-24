@@ -73,7 +73,7 @@
 <tr>
   <td align=center><p> &#9203;</p></td>
   <td><a href="./Catalan Numbers">Catalan number</a></td>
-  <td>Python, C++, C#, Java</td>
+  <td>Python, C++, Java</td>
 </tr>
 <tr>
   <td align=center><p> &#9203;</p></td>
@@ -83,17 +83,17 @@
 <tr>
   <td align=center><p>  &#9203;</p></td>
   <td><a href="./Euler's Zig-Zag Numbers">Euler zigzag number</a></td>
-  <td>Python</td>
+  <td>Python, C++, Java</td>
 </tr>
 <tr>
   <td align=center><p> &#9203;</p></td>
   <td><a href="./Lazy Caterer's Sequence">Lazy caterer's sequence</a></td>
-  <td>Python, C#, Java</td>
+  <td>Python, C#, C++, Java</td>
 </tr>
 <tr>
   <td align=center><p> &#9203;</p></td>
   <td><a href="./Pell Numbers">Pell numbers</a></td>
-  <td>Python, Java</td>
+  <td>Python, Java, C++</td>
 </tr>
 <tr>
   <td align=center><p> &#9203;</p></td>
@@ -108,12 +108,12 @@
 <tr>
   <td align=center><p> &#9203;</p></td>
   <td><a href="./Divisor Function">Divisor function</a></td>
-  <td>Python, C++</td>
+  <td>Python, C++, C</td>
 </tr>
 <tr>
   <td align=center><p> &#9203;</p></td>
-   <td><a href="./Fermat Numbers">Fermat numbers</a></td>
-  <td>Python, C++, Java</td>
+  <td><a href="./Fermat Numbers">Fermat numbers</a></td>
+  <td>Python, C++, Java, C#</td>
 </tr>
 <tr>
   <td align=center><p>  &#9989;</p></td>
@@ -122,7 +122,7 @@
 </tr>
 <tr>
   <td align=center><p> &#9203;</p></td>
-  <td><a href="./Perfect numbers">Perfect numbers</a></td>
+  <td><a href="./Perfect Number">Perfect numbers</a></td>
   <td>Python, C#</td>
 </tr>
 <tr>
@@ -143,16 +143,16 @@
 <tr>
   <td align=center><p> &#9203;</p></td>
   <td><a href="./Padovan sequence">Padovan sequence</a></td>
-  <td>Python, C++</td>
+  <td>Python, C++, Java</td>
 </tr>
 <tr>
   <td align=center><p> &#9203;</p></td>
   <td><a href="./Euclid–Mullin Sequence">Euclid–Mullin sequence</a></td>
-  <td>Python, Java</td>
+  <td>Python, Java, C++</td>
 </tr>
 <tr>
   <td align=center><p>  &#9203;</p></td>
-  <td>Lucky numbers</td>
+  <td><a href="./Lucky Number">Lucky numbers</td>
   <td>Python</td>
 </tr>
 <tr>
@@ -163,12 +163,12 @@
 <tr>
   <td align=center><p>  &#9203;</p></td>
   <td><a href="./Central Binomial Coefficients">Central binomial coefficients</a></td>
-  <td>Python</td>
+  <td>Python, Java</td>
 </tr>
 <tr>
   <td align=center><p> &#9203;</p></td>
   <td><a href="./Motzkin Numbers">Motzkin numbers</a></td>
-  <td>Python</td>
+  <td>Python, Java, C++</td>
 </tr>
 <tr>
   <td align=center><p> &#9203;</p></td>
@@ -198,27 +198,27 @@
 <tr>
   <td align=center><p> &#9203;</p></td>
   <td><a href="./Golomb Sequence">Golomb sequence</a></td>
-  <td>Python</td>
+  <td>Python, C++</td>
 </tr>
 <tr>
   <td align=center><p> &#9203;</p></td>
   <td><a href="./Perrin Numbers">Perrin numbers</a></td>
-  <td>Python, Java</td>
+  <td>Python, Java, C++</td>
 </tr>
 <tr>
   <td align=center><p>  &#9203;</p></td>
   <td><a href='./Sorting Number'>Sorting Number</a></td>
-  <td>Python</td>
+  <td>Python, Java, C++</td>
 </tr>
 <tr>
   <td align=center><p> &#9203;</p></td>
   <td><a href="./Cullen Numbers">Cullen numbers</a></td>
-  <td>Python, C++, Java</td>
+  <td>Python, C++, C#, Java</td>
 </tr>
 <tr>
   <td align=center><p>  &#9203;</p></td>
   <td><a href="./Primorials">Primorials</a></td>
-  <td>Python, Java</td>
+  <td>Python, Java, C++</td>
 </tr>
 <tr>
   <td align=center><p>  &#9989;</p></td>
@@ -233,7 +233,7 @@
 <tr>
   <td align=center><p> &#9203;</p></td>
   <td><a href="./Pronic Numbers">Pronic numbers</a></td>
-  <td>Python, Java</td>
+  <td>Python, Java, C, C++</td>
 </tr>
 <tr>
   <td align=center><p>  &#9989;</p></td>
@@ -263,7 +263,7 @@
 <tr>
   <td align=center><p> &#9203;</p></td>
   <td><a href="./Woodall Numbers">Woodall numbers</a></td>
-  <td>C, Python, Java</td>
+  <td>C, C#, Python, Java</td>
 </tr>
 <tr>
   <td align=center><p>  &#9989;</p></td>
@@ -283,12 +283,12 @@
 <tr>
   <td align=center><p>  &#9203;</p></td>
   <td><a href="./Deficient Numbers">Deficient numbers</a></td>
-  <td> Python       </td>
+  <td> Python, Java, C++</td>
 </tr>
 <tr>
   <td align=center><p>  &#9203;</p></td>
   <td><a href="./Abundant Numbers">Abundant number</a></td>
-  <td>Python, C++, C</td>
+  <td>Python, C++, C, Java</td>
 </tr>
 <tr>
   <td align=center><p>  &#9989;</p></td>
@@ -298,12 +298,12 @@
 <tr>
   <td align=center><p> &#9203;</p></td>
   <td><a href="./Recaman's Sequence">Recamán's sequence</a></td>
-  <td>Python</td>
+  <td>Python, Java, C++</td>
 </tr>
 <tr>
   <td align=center><p> &#9203;</p></td>
   <td><a href="./Look And Say Sequence">Look-and-say sequence</a></td>
-  <td>Python, C++</td>
+  <td>Python, C++, Java</td>
 </tr>
 <tr>
   <td align=center><p>  &#9989;</p></td>
@@ -342,7 +342,7 @@
 </tr><tr>
   <td align=center><p> &#9203;</p></td>
   <td><a href='./Farey Sequence Denominators'>Farey Sequence Denominators</a></td>
-  <td>Python        </td>
+  <td>Python, C++</td>
 </tr>
 <tr>
   <td align=center><p> &#9203;</p></td>
@@ -351,7 +351,7 @@
 </tr>
 <tr>
   <td align=center><p>  &#9203;</p></td>
-  <td>Kaprekar numbers</td>
+  <td><a href='./Kaprekar Numbers'>Kaprekar numbers</td>
   <td>Python</td>
 </tr>
 <tr>
@@ -426,7 +426,7 @@
 </tr>
 <tr>
   <td align=center><p>  &#9203;</p></td>
-  <td><a href="./Baum-Sweet sequence">Baum–Sweet sequence</a></td>
+  <td><a href="./Baum Sweet sequence">Baum–Sweet sequence</a></td>
   <td>C++, Python</td>
 </tr><tr>
   <td align=center><p>  &#9989;</p></td>
@@ -436,12 +436,12 @@
 <tr>
   <td align=center><p> &#9203;</p></td>
   <td><a href="./Carol Number">Carol numbers</a></td>
-  <td>Python, C++, Java</td>
+  <td>Python, C++, Java, C#</td>
 </tr>
 <tr>
   <td align=center><p> &#9203;</p></td>
   <td><a href="./Juggler Sequence">Juggler sequence</a></td>
-  <td>Python</td>
+  <td>Python, Java, C++</td>
 </tr>
 <tr>
   <td align=center><p>  &#9989;</p></td>
@@ -456,7 +456,7 @@
 <tr>
   <td align=center><p> &#9203;</p></td>
   <td><a href="./Polite Numbers">Polite numbers</a></td>
-  <td>Python, Java</td>
+  <td>Python, Java, C++</td>
 </tr>
 <tr>
   <td align=center><p>  &#9989;</p></td>
