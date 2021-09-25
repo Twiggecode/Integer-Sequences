@@ -78,7 +78,7 @@
 <tr>
   <td align=center><p> &#9203;</p></td>
   <td><a href="./Catalan Numbers">Catalan number</a></td>
-  <td>Python, C++, C#, Java</td>
+  <td>Python, C++, Java</td>
 </tr>
 <tr>
   <td align=center><p> &#9203;</p></td>
