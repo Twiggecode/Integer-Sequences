@@ -6,7 +6,7 @@ def user_input():
         n = int(input("Enter n: "))
         return n
     except ValueError:  # This is needed to give line 13 an exception (Because it changes 'n')
-        user_input()
+        return user_input()
 
 
 # Find required number in a power series
