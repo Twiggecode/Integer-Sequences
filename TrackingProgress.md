@@ -288,7 +288,7 @@
 <tr>
   <td align=center><p>  &#9203;</p></td>
   <td><a href="./Deficient Numbers">Deficient numbers</a></td>
-  <td> Python       </td>
+  <td> Python, C++, Java</td>
 </tr>
 <tr>
   <td align=center><p>  &#9203;</p></td>
