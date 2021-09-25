@@ -113,7 +113,7 @@
 <tr>
   <td align=center><p> &#9203;</p></td>
   <td><a href="./Divisor Function">Divisor function</a></td>
-  <td>Python, C++</td>
+  <td>Python, C++, Mark Down, C</td>
 </tr>
 <tr>
   <td align=center><p> &#9203;</p></td>
