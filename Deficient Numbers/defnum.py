@@ -14,7 +14,7 @@ def print_deficients(begin: int, end: int) -> None:
         divisors: int = begin
 
         index: int = 1
-        while index < begin // 2:
+        while index <= begin // 2:
             if begin % index == 0:
                 divisors += index
             index += 1
