@@ -10,6 +10,11 @@
 <!---->
 <!---->
 
+<!-->
+'All Exponent Integer Series' is not in this file
+'Bernoulli Number' is not in this list
+<-->
+
 
 <table>
   <thead>
@@ -288,7 +293,7 @@
 <tr>
   <td align=center><p>  &#9203;</p></td>
   <td><a href="./Abundant Numbers">Abundant number</a></td>
-  <td>Python, C++, C</td>
+  <td>Python, C++, C, java</td>
 </tr>
 <tr>
   <td align=center><p>  &#9989;</p></td>
@@ -478,5 +483,4 @@
 </tbody>
 </table>
 </body>
-
 
