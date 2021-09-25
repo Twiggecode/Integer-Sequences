@@ -3,6 +3,7 @@
 
 def Carol_Numbers():
     n = int(input("Enter a Number: "))
+    n += 1
     formula = (((2 ** n) - 1) ** 2) - 2
     print(formula)
 
