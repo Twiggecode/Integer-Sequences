@@ -58,11 +58,11 @@ def main() -> None:
     deficients = print_deficients(start, stop)
 
     #  Query's user if they wish to print the returned list of dificient nubers
-    if str(input("Enter 'y' to print the dificient numbers: ").lower()) == 'y':
+    if str(input("Enter 'y' to print the dificient numbers: ").lower()) == "y":
         print()
         [print(f"{number} is deficient") for number in deficients]
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()
 
