@@ -5,34 +5,34 @@ series of numbers provided the numbers are deficient
 
 
 def print_deficients(begin: int, end: int) -> None:
-    def_list: list[int] = []
-    sum_divisors: int = 0
-    index: int = 1
+    if type(begin) != int or type(end) != int:
+        raise ValueError("\nThe begin and the end number must be integers\n")
 
-    while True:
-        for i in range(begin):
-            if i == 0:
-                continue
-            elif begin % i:
-                sum_divisors += 1
+    deficient_nums = []
 
-        if sum_divisors < 2 * begin:
-            def_list.append(begin)
+    while begin <= end:
+        divisors: int = begin
 
-        if begin == end:
-            break
+        index: int = 1
+        while index < begin // 2:
+            if begin % index == 0:
+                divisors += index
+            index += 1
+
+        if divisors < (2 * begin):
+            deficient_nums.append(begin)
+            # print(f"{begin} is deficient")
 
         begin += 1
 
-    return def_list
-
-
+    return deficient_nums
 
 def main():
     # start = int(input("Enter start number: "))
     # stop = int(input("Enter stop number: "))
-    start, stop = 1, 20
+    start, stop = 10, 20
     deficients = print_deficients(start, stop)
+    print()
     [print(number) for number in deficients]
 
 
