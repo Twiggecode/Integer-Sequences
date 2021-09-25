@@ -168,7 +168,7 @@
 <tr>
   <td align=center><p>  &#9203;</p></td>
   <td><a href="./Central Binomial Coefficients">Central binomial coefficients</a></td>
-  <td>Python</td>
+  <td>Python, Java</td>
 </tr>
 <tr>
   <td align=center><p> &#9203;</p></td>
