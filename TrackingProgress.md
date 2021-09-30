@@ -288,12 +288,12 @@
 <tr>
   <td align=center><p>  &#9203;</p></td>
   <td><a href="./Deficient Numbers">Deficient numbers</a></td>
-  <td> Python, Java, C++</td>
+  <td>Python, Java, C++</td>
 </tr>
 <tr>
   <td align=center><p>  &#9203;</p></td>
   <td><a href="./Abundant Numbers">Abundant number</a></td>
-  <td>Python, C++, C, java</td>
+  <td>Python, C++, C, Java</td>
 </tr>
 <tr>
   <td align=center><p>  &#9989;</p></td>
