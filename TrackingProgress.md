@@ -128,7 +128,7 @@
 <tr>
   <td align=center><p> &#9203;</p></td>
   <td><a href="./Perfect Number">Perfect numbers</a></td>
-  <td>Python, C#</td>
+  <td>Python, C#, C</td>
 </tr>
 <tr>
   <td align=center><p>  &#9989;</p></td>
