@@ -1,13 +1,12 @@
 /**
  * Algorithms to show, return and check if a number is a
- * Perfect Number. A perfect number, sum(m) == 2m; where
+ * Perfect Number. A perfect number, sum(m) == m (excludeing m)
  * sum(m) is the summation of m's divisors, is a number whos
- * even divisors sum to twice the number (m).
+ * even divisors sum to the number (m). The number (m) is not
+ * included in the summation
  */
+
 // TODO: Comment code
-//
-// The explanation and code of perfect number is incorrect
-//
 #include <stdio.h>
 
 void printPerfects(int, int);
@@ -30,12 +29,12 @@ int main() {
 
 void printPerfects(int start, int stop) {
     while (start <= stop) {
-        int divisors = start;
+        int divisors = 0;
 
         for (int i = 1; i < (start / 2) + 1; ++i)
             divisors += (start % i == 0) ? i : 0;
 
-        if (divisors == 2 * start)
+        if (divisors == start)
             printf("%d is Perfect\n", start);
 
         ++start;
