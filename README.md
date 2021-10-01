@@ -12,6 +12,7 @@
         <li><a href="https://github.com/Twiggecode/Integer-Sequences/blob/main/README%20Translations/README_RO.md"> Romanian </a></li>
         <li><a href="https://github.com/Twiggecode/Integer-Sequences/blob/main/README%20Translations/README_RU.md"> Russian </a></li>
         <li><a href="https://github.com/Twiggecode/Integer-Sequences/blob/main/README%20Translations/README_ES.md"> Spanish </a></li>
+        <li><a href="https://github.com/Twiggecode/Integer-Sequences/blob/main/README%20Translations/README_CN.md"> Chinese </a></li>
     
 </details>
 <!-- Do not translate this -->
@@ -28,7 +29,7 @@ This wikipedia link contains a list of many notable integer sequences, such as t
 
 'n' Represents an integer input by the user. For example, if the user inputs the integer '2', then your algorithm should return the third element of the sequence (because the indexing starts at 0, the first element of the sequence is for n=0, the second element is for n=1, etc).
 
-If someone needs to implement one of the more obscure integer sequences listed on the wikipedia page within their own program, it is likely that they will have to develop their own algorithm from scratch to find the nth element of the sequence, as no code to generate these obscure sequences will exist on the internet. 
+If someone needs to implement one of the more obscure integer sequences listed on the wikipedia page within their own program, it is likely that they will have to develop their own algorithm from scratch to find the nth element of the sequence, as no code to generate these obscure sequences will exist on the internet.
 
 I want to complete the database of algorithms within this project so that others can simply use the algorithms within my database instead of wasting time developing their own algorithms. Anyone is free to use the code within this project in their own software, there is no need to ask for permission because this project uses the Unlicense.
 
@@ -48,9 +49,6 @@ After you are happy with the code you have developed, submit a pull request usin
 
 You can also modify and improve existing code within the project, submit a pull request and I will review your changes. For example, you can improve the speed of code, or improve the coding standards by adding comments, spaces, changing variable names, etc.
 
-
-
-
 ## How to Submit a Pull Request
 
 As this is a project aimed at beginners, I want to briefly explain the most simple way to submit a pull request for those who don't know.
@@ -63,28 +61,24 @@ Return to my repository and click submit pull request. Click "compare across for
 
 Click submit a pull request and leave a meaningful comment explaining the code you are attempting to add to the project.
 
-
-
 Alternatively, you can use the following git commands:
 
 1. To clone the repository in your local system use
 
-```git clone repo-link folder_name```
+`git clone repo-link folder_name`
 
 2. To stage the file you just changed use
 
-```git add file-name```
-   
+`git add file-name`
+
 3. In case you have changed multiple files and want to stage them all at once use
 
-```git add .``` 
+`git add .`
 
 4. To commit those changes use
 
-```git commit -m "Fixed Issue #issue_number"```
+`git commit -m "Fixed Issue #issue_number"`
 
 5. To push these changes use
 
-```git push origin Branch-name```
-
-
+`git push origin Branch-name`
