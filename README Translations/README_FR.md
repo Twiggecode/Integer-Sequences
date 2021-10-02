@@ -5,7 +5,10 @@
 </summary>
     <ul>
         <li><a href="https://github.com/Twiggecode/Integer-Sequences/blob/main/README.md"> English </a></li>
-        <li><a href="https://github.com/Twiggecode/Integer-Sequences/blob/main/README_FR.md"> French </a></li>
+        <li><a href="https://github.com/Twiggecode/Integer-Sequences/blob/main/README%20Translations/README_IT.md"> Italian </a></li>
+        <li><a href="https://github.com/Twiggecode/Integer-Sequences/blob/main/README%20Translations/README_HINDI.md"> Hindi </a></li>
+        <li><a href="https://github.com/Twiggecode/Integer-Sequences/blob/main/README%20Translations/README_CN.md"> Chinese </a></li>
+        <li><a href="https://github.com/Twiggecode/Integer-Sequences/blob/main/README%20Translations/README_FR.md"> French </a></li>
         <li><a href="https://github.com/Twiggecode/Integer-Sequences/blob/main/README%20Translations/README_ID.md"> Indonesian </a></li>
         <li><a href="https://github.com/Twiggecode/Integer-Sequences/blob/main/README%20Translations/README_KR.md"> Korean </a></li>
         <li><a href="https://github.com/Twiggecode/Integer-Sequences/blob/main/README%20Translations/README_PT.md"> Portuguese </a></li>
