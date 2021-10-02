@@ -1,3 +1,22 @@
+<!-- Do not translate this -->
+<details>
+<summary>
+<strong> Read this guide in other languages </strong>
+</summary>
+    <ul>
+        <li><a href="https://github.com/Twiggecode/Integer-Sequences/blob/main/README.md"> English </a></li>
+        <li><a href="https://github.com/Twiggecode/Integer-Sequences/blob/main/README%20Translations/README_FR.md"> French </a></li>
+        <li><a href="https://github.com/Twiggecode/Integer-Sequences/blob/main/README%20Translations/README_ID.md"> Indonesian </a></li>
+        <li><a href="https://github.com/Twiggecode/Integer-Sequences/blob/main/README%20Translations/README_KR.md"> Korean </a></li>
+        <li><a href="https://github.com/Twiggecode/Integer-Sequences/blob/main/README%20Translations/README_PT.md"> Portuguese </a></li>
+        <li><a href="https://github.com/Twiggecode/Integer-Sequences/blob/main/README%20Translations/README_RO.md"> Romanian </a></li>
+        <li><a href="https://github.com/Twiggecode/Integer-Sequences/blob/main/README%20Translations/README_RU.md"> Russian </a></li>
+        <li><a href="https://github.com/Twiggecode/Integer-Sequences/blob/main/README%20Translations/README_ES.md"> Spanish </a></li>
+        <li><a href="https://github.com/Twiggecode/Integer-Sequences/blob/main/README_HINDI.md"> Hindi </a></li>
+    
+</details>
+<!-- Do not translate this -->
+
 # पूर्णांक अनुक्रम
 ## परियोजना परिचय
 यह परियोजना बहूत ही सरल है एवम् उन लोगों के लिए एक उत्कृष्ट अवसर प्रदान करता है जो ओपन सोर्स में अपना पहला योगदान देना चाहते हैं। हालांकि कोई भी अपना योगदान दे सकता है।
