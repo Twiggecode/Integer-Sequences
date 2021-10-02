@@ -12,6 +12,7 @@
         <li><a href="https://github.com/Twiggecode/Integer-Sequences/blob/main/README%20Translations/README_RO.md"> Romanian </a></li>
         <li><a href="https://github.com/Twiggecode/Integer-Sequences/blob/main/README%20Translations/README_RU.md"> Russian </a></li>
         <li><a href="https://github.com/Twiggecode/Integer-Sequences/blob/main/README%20Translations/README_ES.md"> Spanish </a></li>
+        <li><a href="https://github.com/Twiggecode/Integer-Sequences/blob/main/README%20Translations/README_HINDI.md"> Hindi </a></li>
     
 </details>
 <!-- Do not translate this -->
