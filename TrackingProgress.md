@@ -11,8 +11,20 @@
 <!---->
 
 <!-->
-'All Exponent Integer Series' is not in this file
-'Bernoulli Number' is not in this list
+UPDATED 30 Sep 2021
+Achilles Numbers
+Alternating Factorial
+Euclid-Mullin not checked
+'Euler Numbers' - Added Python
+'Fibonacci Sequence - JS = JavaScript
+
+'All Exponent Integer Series' is not in this file'
+'Bernoulli Number' is not in this file'
+ErdosNicolas not in this file
+Fibonacci Series' not in this file
+
+Note to self: Next is 'Golomb Seq...'
+
 <-->
 
 
@@ -53,7 +65,7 @@
 <tr>
   <td align=center><p> &#9203;</p></td>
   <td><a href="./Fibonacci Sequence">Fibonacci number</a></td>
-  <td>Python, C++, C#, C, Java, Go, Ruby, Scala</td>
+  <td>Python, C++, C#, C, Java, Go, Ruby, Scala, JS</td>
 </tr>
 <tr>
   <td align=center><p> &#9203;</p></td>
@@ -318,7 +330,7 @@
 <tr>
   <td align=center><p>  &#9203;</p></td>
   <td><a href="./Alternating Factorial">Alternating factorial</a></td>
-  <td>C++, Java, Python</td>
+  <td>C++, Java, Python, C</td>
 </tr>
 <tr>
   <td align=center><p>  &#9989;</p></td>
@@ -343,7 +355,7 @@
 <tr>
   <td align=center><p> &#9203;</p></td>
   <td><a href='./Farey Sequence Numerators'>Farey Sequence Numerators</a></td>
-  <td>Python        </td>
+  <td>Python</td>
 </tr><tr>
   <td align=center><p> &#9203;</p></td>
   <td><a href='./Farey Sequence Denominators'>Farey Sequence Denominators</a></td>
@@ -407,7 +419,7 @@
 <tr>
   <td align=center><p>  &#9989;</p></td>
   <td>Achilles number</td>
-  <td>        </td>
+  <td>Python</td>
 </tr>
 <tr>
   <td align=center><p>  &#9989;</p></td>
@@ -456,7 +468,7 @@
 <tr>
   <td align=center><p>  &#9989;</p></td>
   <td>Euler numbers</td>
-  <td>        </td>
+  <td>Python</td>
 </tr>
 <tr>
   <td align=center><p> &#9203;</p></td>
