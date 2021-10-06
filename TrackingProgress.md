@@ -11,26 +11,7 @@
 <!---->
 
 <!-->
-UPDATED 30 Sep 2021
-Achilles Numbers
-Alternating Factorial
-Euclid-Mullin not checked
-'Euler Numbers' - Added Python
-'Fibonacci Sequence - JS = JavaScript
 
-UPDATED 05 Oct 2021
-Golomb Sequence - Java
-Lucky Number - C++
-Sum of Proper Divisors - C++, Java, Python
-Tribonacci Sequence - JS
-Untouchable Numbers - Java
-
-'All Exponent Integer Series' is not in this file'
-'Bernoulli Number' is not in this file'
-ErdosNicolas not in this file
-Fibonacci Series not in this file
-Natural Numbers Sequence not in this file
-Stella Octangula Numbers not in this file
 <-->
 
 
