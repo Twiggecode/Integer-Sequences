@@ -11,8 +11,26 @@
 <!---->
 
 <!-->
-'All Exponent Integer Series' is not in this file
-'Bernoulli Number' is not in this list
+UPDATED 30 Sep 2021
+Achilles Numbers
+Alternating Factorial
+Euclid-Mullin not checked
+'Euler Numbers' - Added Python
+'Fibonacci Sequence - JS = JavaScript
+
+UPDATED 05 Oct 2021
+Golomb Sequence - Java
+Lucky Number - C++
+Sum of Proper Divisors - C++, Java, Python
+Tribonacci Sequence - JS
+Untouchable Numbers - Java
+
+'All Exponent Integer Series' is not in this file'
+'Bernoulli Number' is not in this file'
+ErdosNicolas not in this file
+Fibonacci Series not in this file
+Natural Numbers Sequence not in this file
+Stella Octangula Numbers not in this file
 <-->
 
 
@@ -53,7 +71,7 @@
 <tr>
   <td align=center><p> &#9203;</p></td>
   <td><a href="./Fibonacci Sequence">Fibonacci number</a></td>
-  <td>Python, C++, C#, C, Java, Go, Ruby, Scala</td>
+  <td>Python, C++, C#, C, Java, Go, Ruby, Scala, JS</td>
 </tr>
 <tr>
   <td align=center><p> &#9203;</p></td>
@@ -63,7 +81,7 @@
 <tr>
   <td align=center><p> &#9203;</p></td>
   <td><a href="./Tribonacci Sequence">Tribonacci number</a></td>
-  <td>Python, C++, C#, C, Java, Go</td>
+  <td>Python, C++, C#, C, Java, Go, JS</td>
 </tr>
 <tr>
   <td align=center><p> &#9203;</p></td>
@@ -158,7 +176,7 @@
 <tr>
   <td align=center><p>  &#9203;</p></td>
   <td><a href="./Lucky Number">Lucky numbers</td>
-  <td>Python</td>
+  <td>Python, C++</td>
 </tr>
 <tr>
   <td align=center><p>  &#9989;</p></td>
@@ -183,7 +201,7 @@
 <tr>
   <td align=center><p>  &#9989;</p></td>
   <td>Sum of proper divisors</td>
-  <td></td>
+  <td>C++, Java, Python</td>
 </tr>
 <tr>
   <td align=center><p> &#9203;</p></td>
@@ -203,7 +221,7 @@
 <tr>
   <td align=center><p> &#9203;</p></td>
   <td><a href="./Golomb Sequence">Golomb sequence</a></td>
-  <td>Python, C++</td>
+  <td>Python, C++, Java</td>
 </tr>
 <tr>
   <td align=center><p> &#9203;</p></td>
@@ -288,17 +306,17 @@
 <tr>
   <td align=center><p>  &#9203;</p></td>
   <td><a href="./Deficient Numbers">Deficient numbers</a></td>
-  <td> Python, Java, C++</td>
+  <td>Python, Java, C++</td>
 </tr>
 <tr>
   <td align=center><p>  &#9203;</p></td>
   <td><a href="./Abundant Numbers">Abundant number</a></td>
-  <td>Python, C++, C, java</td>
+  <td>Python, C++, C, Java</td>
 </tr>
 <tr>
   <td align=center><p>  &#9989;</p></td>
   <td>Untouchable numbers</td>
-  <td>CPP, Python</td>
+  <td>CPP, Python, Java</td>
 </tr>
 <tr>
   <td align=center><p> &#9203;</p></td>
@@ -318,7 +336,7 @@
 <tr>
   <td align=center><p>  &#9203;</p></td>
   <td><a href="./Alternating Factorial">Alternating factorial</a></td>
-  <td>C++, Java, Python</td>
+  <td>C++, Java, Python, C</td>
 </tr>
 <tr>
   <td align=center><p>  &#9989;</p></td>
@@ -343,7 +361,7 @@
 <tr>
   <td align=center><p> &#9203;</p></td>
   <td><a href='./Farey Sequence Numerators'>Farey Sequence Numerators</a></td>
-  <td>Python        </td>
+  <td>Python</td>
 </tr><tr>
   <td align=center><p> &#9203;</p></td>
   <td><a href='./Farey Sequence Denominators'>Farey Sequence Denominators</a></td>
@@ -407,7 +425,7 @@
 <tr>
   <td align=center><p>  &#9989;</p></td>
   <td>Achilles number</td>
-  <td>        </td>
+  <td>Python</td>
 </tr>
 <tr>
   <td align=center><p>  &#9989;</p></td>
@@ -456,7 +474,7 @@
 <tr>
   <td align=center><p>  &#9989;</p></td>
   <td>Euler numbers</td>
-  <td>        </td>
+  <td>Python</td>
 </tr>
 <tr>
   <td align=center><p> &#9203;</p></td>
