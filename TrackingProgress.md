@@ -18,13 +18,19 @@ Euclid-Mullin not checked
 'Euler Numbers' - Added Python
 'Fibonacci Sequence - JS = JavaScript
 
+UPDATED 05 Oct 2021
+Golomb Sequence - Java
+Lucky Number - C++
+Sum of Proper Divisors - C++, Java, Python
+Tribonacci Sequence - JS
+Untouchable Numbers - Java
+
 'All Exponent Integer Series' is not in this file'
 'Bernoulli Number' is not in this file'
 ErdosNicolas not in this file
-Fibonacci Series' not in this file
-
-Note to self: Next is 'Golomb Seq...'
-
+Fibonacci Series not in this file
+Natural Numbers Sequence not in this file
+Stella Octangula Numbers not in this file
 <-->
 
 
@@ -75,7 +81,7 @@ Note to self: Next is 'Golomb Seq...'
 <tr>
   <td align=center><p> &#9203;</p></td>
   <td><a href="./Tribonacci Sequence">Tribonacci number</a></td>
-  <td>Python, C++, C#, C, Java, Go</td>
+  <td>Python, C++, C#, C, Java, Go, JS</td>
 </tr>
 <tr>
   <td align=center><p> &#9203;</p></td>
@@ -170,7 +176,7 @@ Note to self: Next is 'Golomb Seq...'
 <tr>
   <td align=center><p>  &#9203;</p></td>
   <td><a href="./Lucky Number">Lucky numbers</td>
-  <td>Python</td>
+  <td>Python, C++</td>
 </tr>
 <tr>
   <td align=center><p>  &#9989;</p></td>
@@ -195,7 +201,7 @@ Note to self: Next is 'Golomb Seq...'
 <tr>
   <td align=center><p>  &#9989;</p></td>
   <td>Sum of proper divisors</td>
-  <td></td>
+  <td>C++, Java, Python</td>
 </tr>
 <tr>
   <td align=center><p> &#9203;</p></td>
@@ -215,7 +221,7 @@ Note to self: Next is 'Golomb Seq...'
 <tr>
   <td align=center><p> &#9203;</p></td>
   <td><a href="./Golomb Sequence">Golomb sequence</a></td>
-  <td>Python, C++</td>
+  <td>Python, C++, Java</td>
 </tr>
 <tr>
   <td align=center><p> &#9203;</p></td>
@@ -310,7 +316,7 @@ Note to self: Next is 'Golomb Seq...'
 <tr>
   <td align=center><p>  &#9989;</p></td>
   <td>Untouchable numbers</td>
-  <td>CPP, Python</td>
+  <td>CPP, Python, Java</td>
 </tr>
 <tr>
   <td align=center><p> &#9203;</p></td>
