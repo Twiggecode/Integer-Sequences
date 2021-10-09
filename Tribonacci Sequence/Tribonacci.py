@@ -17,4 +17,4 @@ def tribonacci(n,mem={}):
 
 if __name__ == "__main__":
     n=int(input("Enter the value of n: "))
-    print(f"The Nth term in the sequence is {tribonacci (n,)}")
+    print(f"The Nth term in the sequence is {tribonacci (n+1)}")
