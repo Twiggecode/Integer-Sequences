@@ -271,7 +271,7 @@
 <tr>
   <td align=center><p>  &#9989;</p></td>
   <td>Arithmetic numbers</td>
-  <td>        </td>
+  <td>Python</td>
 </tr>
 <tr>
   <td align=center><p>  &#9989;</p></td>
