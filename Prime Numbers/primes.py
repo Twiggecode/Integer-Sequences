@@ -50,14 +50,20 @@ def print_chosen_prime(n):
         number += 1
 
 
-def is_prime(n):
-    """returns True if n is prime, False otherwise"""
-
-    for i in range(2, n):
-        if n % i == 0:  # not a prime number
+def is_prime(n: int) -> bool:
+    """
+    Primality test using 6k+-1 optimization.
+    See https://en.wikipedia.org/wiki/Primality_test for explanation and details.
+    Returns True if n is prime, False otherwise."""
+    if n <= 3:
+        return n > 1
+    if n % 2 == 0 or n % 3 == 0:
+        return False
+    i = 5
+    while i ** 2 <= n:
+        if n % i == 0 or n % (i + 2) == 0:
             return False
-
-    # if we reached so far, the number should be a prime number
+        i += 6
     return True
 
 if __name__ == "__main__":
