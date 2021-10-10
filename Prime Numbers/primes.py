@@ -53,8 +53,7 @@ def print_chosen_prime(n):
 def is_prime(n: int) -> bool:
     """
     Primality test using 6k+-1 optimization.
-    See https://en.wikipedia.org/wiki/Primality_test for explanation and details
-.
+    See https://en.wikipedia.org/wiki/Primality_test for explanation and details.
     Returns True if n is prime, False otherwise."""
     if n <= 3:
         return n > 1
