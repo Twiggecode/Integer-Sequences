@@ -269,8 +269,8 @@
   <td>C, C#, Python, Java</td>
 </tr>
 <tr>
-  <td align=center><p>  &#9989;</p></td>
-  <td>Arithmetic numbers</td>
+  <td align=center><p> &#9203;</p></td>
+  <td><a href="./Arithmetic Numbers">Arithmetic numbers</a></td>
   <td>Python</td>
 </tr>
 <tr>
@@ -294,8 +294,8 @@
   <td>Python, C++, C, Java</td>
 </tr>
 <tr>
-  <td align=center><p>  &#9989;</p></td>
-  <td>Untouchable numbers</td>
+  <td align=center><p>  &#9203;</p></td>
+  <td><a href="./Untouchable Numbers">Untouchable Numbers</a></td>
   <td>CPP, Python, Java</td>
 </tr>
 <tr>
