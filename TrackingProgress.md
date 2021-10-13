@@ -403,8 +403,8 @@
   <td>        </td>
 </tr>
 <tr>
-  <td align=center><p>  &#9989;</p></td>
-  <td>Achilles number</td>
+  <td align=center><p>  &#9203;</p></td>
+  <td><a href="./Achilles Numbers">Achilles number</a></td>
   <td>Python</td>
 </tr>
 <tr>
