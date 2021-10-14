@@ -1,20 +1,28 @@
 #include <math.h>
 #include <iostream>
 
+
 /*  Returns an integer a raised to the power of b.
-* 
 *   @param  The integer to exponentially raise, and the
 *           power integer.
-*   @return 1 if b = 0, or a * a^(b - 1).
+*
+*   @return 1 if b = 0, if b is even (a^b/2 * a^b/2), else (a^b/2 * a^b/2 * a)
 */
-const int power(const int& a, const int& b)
+const int fastPower(const int& a, const int &b)
 {
-    if (b <= 0)
+    if( b == 0)
     {
         return 1;
     }
 
-    return a * power(a, b - 1);
+    //calculate a^b/2 once and use it to calculate recursive a^n
+    int half = fastPower(a, b/2);
+
+    //check if b is even or odd
+    if(b & 1) // b % 2
+        return half * half * a;
+    
+    return half * half;
 }
 
 /*  Returns the sum of the kth powers of the positive divisors of n.
@@ -53,17 +61,17 @@ const int sumOfPositiveDivisors(const int& n, const int& k)
             // If i * i = n, add i^k by itself
             if (n / i == i)
             {
-                sum += power(i, k);
+                sum += fastPower(i, k);
             }
             else
             {
-                sum += power(i, k) + power(n / i, k);
+                sum += fastPower(i, k) + fastPower(n / i, k);
             }
         }
     }
 
     // Add divisors n^k and 1 to the result
-    return sum + power(n, k) + 1;
+    return sum + fastPower(n, k) + 1;
 }
 
 /*      DRIVER CODE     */
