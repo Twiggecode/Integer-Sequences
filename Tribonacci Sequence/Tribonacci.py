@@ -13,15 +13,17 @@ def main():
     if(n == 2):
         print("1")
     
+    # Assigning variables to first 3 elements of Tribonacci sequence
     a = 0
     b = 1
     c = 1
     
+    # For loop for finding the nth number in sequence 
     for i in range(3, n + 1):
-        temp = a + b + c
-        a, b, c = b, c, temp
+        n_number = a + b + c
+        a, b, c = b, c, n_number
         
-    print(temp)
+    print(n_number)
 
 
 if __name__ == "__main__":
