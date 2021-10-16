@@ -1,20 +1,30 @@
+#!/usr/bin/python
+
 # This code will return the nth element of the Tribonacci sequence
 
-def tribonacci(n,mem={}):
-    if(n==0 or n==1):
-        mem[n]=0
-        return mem[n]
-    elif(n==2 or n==3):
-        mem[n]=1
-        return mem[n]
+def main():
 
-    if(n in mem.keys()):
-        return mem[n]
-
-    mem[n]=tribonacci(n-3)+tribonacci(n-2)+tribonacci(n-1)
-    return mem[n]
+    n = int(input("Enter number:"))
+        
+    if(n == 0):
+        print("0")
+    if(n == 1):
+        print("1")
+    if(n == 2):
+        print("1")
     
+    # Assigning variables to first 3 elements of Tribonacci sequence
+    a = 0
+    b = 1
+    c = 1
+    
+    # For loop for finding the nth number in sequence 
+    for i in range(3, n + 1):
+        n_number = a + b + c
+        a, b, c = b, c, n_number
+        
+    print(n_number)
+
 
 if __name__ == "__main__":
-    n=int(input("Enter the value of n: "))
-    print(f"The Nth term in the sequence is {tribonacci (n+1)}")
+    main()
