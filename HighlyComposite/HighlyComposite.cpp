@@ -1,8 +1,8 @@
-#include <bits/stdc++.h>
-using namespace std;
- 
+#include <iostream>
+#include <cstring>
+
 // Function to count the number
-// of divisors of the N
+// of divisors of the number given
 int divCount(int n)
 {
     // sieve method for prime calculation
@@ -17,15 +17,16 @@ int divCount(int n)
     // all prime numbers
     int total = 1;
     for (int p = 2; p <= n; p++) {
-        if (hash[p]) {
+        if (hash[p]==true) {
  
-            // calculate number of divisor
+            // calculate number of divisors
             // with formula total div =
             // (p1+1) * (p2+1) *.....* (pn+1)
             // where n = (a1^p1)*(a2^p2)....
-            // *(an^pn) ai being prime divisor
+            // *(an^pn) with ai a being prime divisor
             // for n and pi are their respective
-            // power in factorization
+            // powers in the prime factorization
+
             int count = 0;
             if (n % p == 0) {
                 while (n % p == 0) {
@@ -57,7 +58,6 @@ bool isHighlyCompositeNumber(int N)
         if (idivCount >= NdivCount)
             return false;
     }
- 
     return true;
 }
  
@@ -66,13 +66,13 @@ int main()
 {
     // Given Number N
     int N;
-    cin >> N;
+    std::cin >> N;
     
  
     // Function Call
     for ( int i =0 ; i < N ; i++){
     if (isHighlyCompositeNumber(i))
-        cout << i << " " ;
+        std::cout << i << " " ;
     }
     return 0;
 }
