@@ -471,6 +471,11 @@
   <td>Solution to Stepping Stone Puzzle</td>
   <td>        </td>
 </tr>
+<tr>
+  <td align=center><p>  &#9989;</p></td>
+  <td>Collatz Conjecture</td>
+  <td>C, Python</td>
+</tr>
 <!--<tfoot>
   <tr>
     <td>Total</td>
