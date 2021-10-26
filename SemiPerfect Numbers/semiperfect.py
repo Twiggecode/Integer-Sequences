@@ -15,9 +15,14 @@ def find_divisors(n):
     divisors.sort()
     return divisors
 
+def subset_generator(arr):
+    for i in range(1, len(arr) + 1):
+        for elem in combinations(arr, i):
+            yield elem
+            
 def isSemiperfect(num):
     divisors = find_divisors(num)
-    subsets = [elem for i in range(1, len(divisors) + 1) for elem in combinations(divisors, i)]
+    subsets = subset_generator(divisors)
     for subset in subsets:
         if sum(subset) == num:
             return True
@@ -34,3 +39,4 @@ def main():
     print(curr)
 
 main()
+
