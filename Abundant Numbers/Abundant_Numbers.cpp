@@ -41,13 +41,17 @@ bool checkAbundant(int n)
  
 /* Driver program to test above function */
 int main()
-{   int n ; cin >> n;
-    for(int i =0; i <=n ;i++){
-        if (checkAbundant(i)){
-             cout << (i)<< ' ';
-    }   
-}
-        
-    
+{   int n,count=-1,i=12 ; cin >> n;
+    while (count!=n)
+    {
+       if (checkAbundant(i)){
+            
+            count++;
+       }
+       i++;
+    }
+       
+   cout<<i-1;
+
     return 0;
 }

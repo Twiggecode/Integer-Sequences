@@ -23,16 +23,14 @@ def is_abundant(n: int) -> bool:
 def find_nth_value() -> None:
     n = int(input("Enter the nth value to find: "))
     count = 0
-    ans = []
-    i = 0
+    i = 12
 
     while n >= count:
         if is_abundant(i):
-            ans.append(i)
             count += 1
         i += 1
 
-    print(f"The value of Abundant Number is {ans[n]}")
+    print(f"The value of Abundant Number is {i-1}")
 
 if __name__ == "__main__":
     find_nth_value()
