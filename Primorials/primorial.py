@@ -1,15 +1,23 @@
-from sympy import primorial
+def nats(n):
+    i = n
+    while True:
+        yield i 
+        i += 1
 
-###############################
-###     Primorials          ###
-###############################
+def sieve(s):
+    n = next(s)
+    yield n 
+    yield from sieve(i for i in s if i%n != 0)
 
-#Explanation : The product of the first n primes.
-#Example : 1, 2, 6, 30, 210, 2310, 30030, 510510, 9699690, 223092870, ...
+def primoral(n):
+    res = 1
+    i = 1
+    primes = sieve(nats(2))
+    while i <= n:
+        res *= next(primes)
+        i += 1
+    return res
 
-
-n = int(input("Enter the nth value to find : "))
-if(n == 0):
-        print(n,"th primorial term is 1")
-else:
-        print(n,"th primorial term is ",primorial(n))
+n = int(input('Enter n: '))
+print(primoral(n))
+    
