@@ -1,3 +1,4 @@
+
 <!-- Do not translate this -->
 <details>
 <summary>
@@ -17,10 +18,14 @@
         <li><a href="https://github.com/Twiggecode/Integer-Sequences/blob/main/README%20Translations/README_RO.md"> Romanian </a></li>
         <li><a href="https://github.com/Twiggecode/Integer-Sequences/blob/main/README%20Translations/README_RU.md"> Russian </a></li>
         <li><a href="https://github.com/Twiggecode/Integer-Sequences/blob/main/README%20Translations/README_ES.md"> Spanish </a></li>
+        <li><a href="https://github.com/Twiggecode/Integer-Sequences/blob/main/README%20Translations/README_AF.md"> Afrikaans </a></li>
+        <li><a href="https://github.com/Twiggecode/Integer-Sequences/blob/main/README%20Translations/README_EL.md"> Greek - Ελληνικά </a></li>
+        <li><a href="https://github.com/Twiggecode/Integer-Sequences/blob/main/README%20Translations/README_JA.md"> Japanese - 日本語 </a></li>
+        <li><a href="https://github.com/Twiggecode/Integer-Sequences/blob/main/README%20Translations/README_NL.md"> Dutch - Nederlands </a></li>
+        <li><a href="https://github.com/Twiggecode/Integer-Sequences/blob/main/README%20Translations/README_SW.md"> Swahili - Kiswahili </a></li>
 	</ul> 
 </details>
 <!-- Do not translate this -->
-
 
 
 # पूर्णांक अनुक्रम
