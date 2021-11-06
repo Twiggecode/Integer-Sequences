@@ -14,23 +14,39 @@ def isPrime(num):
         i += 6
     return True
 
-def powers_of_two():
-    p = 1
+def factorial_generator():
+    x = 1
+    count = 1
     while True:
-        p = 2 * p
-        yield p
+        x = x * count
+        yield x
+        count += 1
 
 def main():
     n = int(input('Enter n: '))
-    count = -1
-    g = powers_of_two()
+    g = factorial_generator()
+    count = -1 
+    res = 0
     while count < n:
         curr = next(g)
-        if isPrime(curr - 1):
+        if isPrime(curr-1):
             count += 1
-    print(curr - 1)
-
+            if count == n:
+                res = curr - 1
+                break
+        if isPrime(curr+1):
+            count += 1
+            if count == n:
+                res = curr + 1
+                break
+    print(res)
+    
 if __name__ == '__main__':
     main()
     
+    
+    
+        
+        
+        
     
