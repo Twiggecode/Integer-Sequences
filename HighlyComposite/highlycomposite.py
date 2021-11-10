@@ -5,16 +5,13 @@ def findDivisors(n) :
     i = 1
     while i <= math.sqrt(n):
         if n % i == 0:
-            if i == n/i:
-                num_divisors += 1
-            else:
-                num_divisors += 2
+            num_divisors += 2 - (i == n/i)
         i += 1
     return num_divisors
-    
+
 def highlyComposite(num):
     n = findDivisors(num)
-    for i in range(1, num):
+    for i in range(2, num, 2):
         if n <= findDivisors(i):
             return False
     return True
