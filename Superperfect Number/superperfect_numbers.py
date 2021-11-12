@@ -15,9 +15,8 @@ def find_divisors(n):
 
 def isSuperperfect(num):
     divisors = find_divisors(num)
-    if sum(find_divisors(sum(find_divisors(num)))) == 2*num:
-        return True
-    return False
+    return sum(find_divisors(sum(find_divisors(num)))) == 2*num
+
 
 def main():
     n = int(input('Enter n: '))
