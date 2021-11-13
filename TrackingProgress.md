@@ -259,9 +259,9 @@
   <td></td>
 </tr>
 <tr>
-  <td align=center><p>  &#9989;</p></td>
-  <td>Carmichael numbers</td>
-  <td>        </td>
+  <td align=center><p>  &#9203;</p></td>
+  <td><a href="./Carmichael numbers">Carmichael numbers</a></td>
+  <td>CPP, python</td>
 </tr>
 <tr>
   <td align=center><p> &#9203;</p></td>
