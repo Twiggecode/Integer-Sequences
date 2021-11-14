@@ -291,7 +291,7 @@
 <tr>
   <td align=center><p>  &#9203;</p></td>
   <td><a href="./Abundant Numbers">Abundant number</a></td>
-  <td>Python, C++, C, Java</td>
+  <td>Python, C++, C, Java, Ruby</td>
 </tr>
 <tr>
   <td align=center><p>  &#9203;</p></td>
