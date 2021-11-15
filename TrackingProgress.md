@@ -324,9 +324,9 @@
   <td>        </td>
 </tr>
 <tr>
-  <td align=center><p>  &#9989;</p></td>
-  <td>Semiperfect numbers</td>
-  <td>        </td>
+  <td align=center><p>  &#9203;</p></td>
+  <td><a href="./Semiperfect numbers">Semiperfect numbers</a></td>
+  <td>C++, Python</td>
 </tr>
 <tr>
   <td align=center><p>  &#9989;</p></td>
