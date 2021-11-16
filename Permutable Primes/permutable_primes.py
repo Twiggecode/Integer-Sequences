@@ -1,12 +1,18 @@
 import math 
 from itertools import permutations
 
-def isPrime(n):
-    i = 2
-    while i <= math.sqrt(n):
-        if n % i == 0:
+def isPrime(num):
+    if num <= 3:
+        return num > 1
+    if num % 2 == 0:
+        return False
+    if num % 3 == 0:
+        return False
+    i = 5
+    while i <= math.sqrt(num):
+        if num % (i) == 0 or num % (i+2) == 0:
             return False
-        i += 1
+        i += 6
     return True
 
 def isPermutablePrime(num):
