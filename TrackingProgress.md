@@ -244,9 +244,9 @@
   <td></td>
 </tr>
 <tr>
-  <td align=center><p>  &#9989;</p></td>
-  <td>Composite numbers</td>
-  <td></td>
+  <td align=center><p>  &#9203;</p></td>
+  <td><a href="./Composite numbers">Composite numbers</a></td>
+  <td>Python</td>
 </tr>
 <tr>
   <td align=center><p> &#9203;</p></td>
