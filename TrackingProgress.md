@@ -44,9 +44,9 @@
   <td>Python, C++, Java, Rust</td>
 </tr>
 <tr>
-  <td align=center><p>  &#9989;</p></td>
-  <td>Partition number</td>
-  <td></td>
+  <td align=center><p>  &#9203;</p></td>
+  <td><a href="./Partition number">Partition number</a></td>
+  <td>Python</td>
 </tr>
 <tr>
   <td align=center><p> &#9203;</p></td>
