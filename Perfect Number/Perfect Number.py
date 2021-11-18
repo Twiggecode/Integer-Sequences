@@ -14,12 +14,18 @@ def isPerfect( n ):
     # n, then n is a perfect number
      
     return (True if sum == n and n!=1 else False)
- 
-# Driver program
-# to print the first N perfect numbers
-n=int(input())
-for i in range (n):
-    if isPerfect (i):
-        print(i,end=" ")
+
+# Driver function to return the nth perfect number
+def main():
+    n = int(input('Enter n: '))
+    count = -1
+    curr = 0
+    while count < n:
+        curr += 1
+        if isPerfect(curr):
+            count += 1
+    print(curr)
+
+main()
         
         
