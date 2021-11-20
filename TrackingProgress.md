@@ -104,9 +104,9 @@
   <td>Python, C++, Java, Scala, R</td>
 </tr>
 <tr>
-  <td align=center><p>  &#9989;</p></td>
-  <td>Derangements</td>
-  <td></td>
+  <td align=center><p>  &#9203;</p></td>
+  <td><a href="./Derangements">Derangements</a></td>
+  <td>Python, C++, Java</td>
 </tr>
 <tr>
   <td align=center><p> &#9203;</p></td>
@@ -477,8 +477,8 @@
   <td>        </td>
 </tr>
 <tr>
-  <td align=center><p>  &#9989;</p></td>
-  <td>Collatz Conjecture</td>
+  <td align=center><p>  &#9203;</p></td>
+  <td><a href="./Collatz Conjecture">Collatz Conjecture</a></td>
   <td>C, Python</td>
 </tr>
 <!--<tfoot>
