@@ -159,9 +159,9 @@
   <td>Python, C++</td>
 </tr>
 <tr>
-  <td align=center><p>  &#9989;</p></td>
-  <td>Prime powers</td>
-  <td></td>
+  <td align=center><p>  &#9203;</p></td>
+  <td><a href="./Prime powers">Prime powers</a></td>
+  <td>Python</td>
 </tr>
 <tr>
   <td align=center><p>  &#9203;</p></td>
@@ -319,9 +319,9 @@
   <td>C++, Java, Python, C</td>
 </tr>
 <tr>
-  <td align=center><p>  &#9989;</p></td>
-  <td>Fortunate numbers</td>
-  <td>        </td>
+  <td align=center><p>  &#9203;</p></td>
+  <td><a href="./Fortunate numbers">Fortunate numbers</a></td>
+  <td>Python</td>
 </tr>
 <tr>
   <td align=center><p>  &#9203;</p></td>
