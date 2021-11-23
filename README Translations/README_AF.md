@@ -20,7 +20,7 @@
         <li><a href="https://github.com/Twiggecode/Integer-Sequences/blob/main/README%20Translations/README_ES.md"> Spanish </a></li>
         <li><a href="https://github.com/Twiggecode/Integer-Sequences/blob/main/README%20Translations/README_AF.md"> Afrikaans </a></li>
         <li><a href="https://github.com/Twiggecode/Integer-Sequences/blob/main/README%20Translations/README_EL.md"> Greek - Ελληνικά </a></li>
-        <li><a href="https://github.com/Twiggecode/Integer-Sequences/blob/main/README%20Translations/README_JA.md"> Japanese - 日本語 </a></li>
+        <li><a href="https://github.com/Twiggecode/Integer-Sequences/blob/main/README%20Translations/README_JP.md"> Japanese - 日本語 </a></li>
         <li><a href="https://github.com/Twiggecode/Integer-Sequences/blob/main/README%20Translations/README_NL.md"> Dutch - Nederlands </a></li>
         <li><a href="https://github.com/Twiggecode/Integer-Sequences/blob/main/README%20Translations/README_SW.md"> Swahili - Kiswahili </a></li>
 	</ul> 
