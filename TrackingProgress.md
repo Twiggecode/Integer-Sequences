@@ -363,9 +363,9 @@
   <td>        </td>
 </tr>
 <tr>
-  <td align=center><p>  &#9989;</p></td>
-  <td>Giuga numbers</td>
-  <td>        </td>
+  <td align=center><p>  &#9203;</p></td>
+  <td><a href="./Giuga numbers">Giuga numbers</a></td>
+  <td>Python</td>
 </tr>
 <tr>
   <td align=center><p>  &#9989;</p></td>
