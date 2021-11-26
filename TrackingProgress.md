@@ -408,9 +408,9 @@
   <td>Python</td>
 </tr>
 <tr>
-  <td align=center><p>  &#9989;</p></td>
-  <td>Primary pseudoperfect numbers</td>
-  <td>        </td>
+  <td align=center><p>  &#9203;</p></td>
+  <td><a href="./Primary pseudoperfect numbers">Primary pseudoperfect numbers</a></td>
+  <td>Python</td>
 </tr>
 <tr>
   <td align=center><p>  &#9989;</p></td>
@@ -457,8 +457,8 @@
   <td>        </td>
 </tr>
 <tr>
-  <td align=center><p>  &#9989;</p></td>
-  <td>Euler numbers</td>
+  <td align=center><p>  &#9203;</p></td>
+  <td><a href="./Euler numbers">Euler numbers</a></td>
   <td>Python</td>
 </tr>
 <tr>
