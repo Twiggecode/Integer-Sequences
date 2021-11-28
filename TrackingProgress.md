@@ -309,9 +309,9 @@
   <td>Python, C++, Java</td>
 </tr>
 <tr>
-  <td align=center><p>  &#9989;</p></td>
-  <td>Practical numbers</td>
-  <td>        </td>
+  <td align=center><p>  &#9203;</p></td>
+  <td><a href="./Practical numbers">Practical numbers</a></td>
+  <td>C++, Python</td>
 </tr>
 <tr>
   <td align=center><p>  &#9203;</p></td>
@@ -393,9 +393,9 @@
   <td>        </td>
 </tr>
 <tr>
-  <td align=center><p>  &#9989;</p></td>
-  <td>Superperfect numbers</td>
-  <td>        </td>
+  <td align=center><p>  &#9203;</p></td>
+  <td><a href="./Superperfect numbers">Superperfect numbers</a></td>
+  <td>Python</td>
 </tr>
 <tr>
   <td align=center><p>  &#9989;</p></td>
