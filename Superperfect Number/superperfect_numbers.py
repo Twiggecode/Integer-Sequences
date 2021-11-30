@@ -14,16 +14,14 @@ def find_divisors(n):
     return divisors
 
 def isSuperperfect(num):
-    divisors = find_divisors(num)
     return sum(find_divisors(sum(find_divisors(num)))) == 2*num
-
 
 def main():
     n = int(input('Enter n: '))
     count = -1
     curr = 0
     while count < n:
-        curr += 1
+        curr += 2
         if isSuperperfect(curr):
             count += 1
     print(curr)
