@@ -194,9 +194,9 @@
   <td>Python, C++, Java</td>
 </tr>
 <tr>
-  <td align=center><p>  &#9989;</p></td>
-  <td>Semiprimes</td>
-  <td></td>
+  <td align=center><p>  &#9203;</p></td>
+  <td><a href="./Semiprimes">Semiprimes</a></td>
+  <td>Python</td>
 </tr>
 <tr>
   <td align=center><p> &#9203;</p></td>
