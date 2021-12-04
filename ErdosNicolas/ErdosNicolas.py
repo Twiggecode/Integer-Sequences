@@ -16,10 +16,7 @@ def find_divisors(n):
 
 def erdos_nicolas(num):
     divisors = find_divisors(num)
-    for i in range(0, len(divisors)-2):
-        if sum(divisors[0:i+1]) == num:
-            return True
-    return False
+    return any(sum(divisors[0:i+1]) == num for i in range(0, len(divisors) -2))
 
 def main():
     n = int(input('Enter n: '))
