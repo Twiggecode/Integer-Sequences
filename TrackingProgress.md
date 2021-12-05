@@ -166,7 +166,7 @@
 <tr>
   <td align=center><p>  &#9203;</p></td>
   <td><a href="./Central Binomial Coefficients">Central binomial coefficients</a></td>
-  <td>Python, Java</td>
+  <td>Python, Java, C++</td>
 </tr>
 <tr>
   <td align=center><p> &#9203;</p></td>
@@ -179,7 +179,7 @@
   <td>Python, C++, Java</td>
 </tr>
 <tr>
-  <td align=center><p>  &#9989;</p></td>
+  <td align=center><p>  &#9203;</p></td>
   <td>Sum of proper divisors</td>
   <td>C++, Java, Python</td>
 </tr>
