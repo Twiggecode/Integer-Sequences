@@ -160,7 +160,7 @@
 </tr>
 <tr>
   <td align=center><p>  &#9203;</p></td>
-  <td><a href="./Prime powers">Prime powers</a></td>
+  <td><a href="./Prime Powers">Prime Powers</a></td>
   <td>Python</td>
 </tr>
 <tr>
@@ -245,7 +245,7 @@
 </tr>
 <tr>
   <td align=center><p>  &#9203;</p></td>
-  <td><a href="./Composite numbers">Composite numbers</a></td>
+  <td><a href="./Composite Numbers">Composite Numbers</a></td>
   <td>Python</td>
 </tr>
 <tr>
@@ -404,7 +404,7 @@
 </tr>
 <tr>
   <td align=center><p>  &#9203;</p></td>
-  <td><a href="./Achilles Numbers">Achilles number</a></td>
+  <td><a href="./Achilles Numbers">Achilles Numbers</a></td>
   <td>Python</td>
 </tr>
 <tr>
@@ -458,7 +458,7 @@
 </tr>
 <tr>
   <td align=center><p>  &#9203;</p></td>
-  <td><a href="./Euler numbers">Euler numbers</a></td>
+  <td><a href="./Euler Numbers">Euler Numbers</a></td>
   <td>Python</td>
 </tr>
 <tr>
