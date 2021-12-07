@@ -394,7 +394,7 @@
 </tr>
 <tr>
   <td align=center><p>  &#9203;</p></td>
-  <td><a href="./Superperfect numbers">Superperfect numbers</a></td>
+  <td><a href="./Superperfect Number">Superperfect Number</a></td>
   <td>Python</td>
 </tr>
 <tr>
@@ -409,7 +409,7 @@
 </tr>
 <tr>
   <td align=center><p>  &#9203;</p></td>
-  <td><a href="./Primary pseudoperfect numbers">Primary pseudoperfect numbers</a></td>
+  <td><a href="./Primary Pseudoperfect Numbers">Primary Pseudoperfect Numbers</a></td>
   <td>Python</td>
 </tr>
 <tr>
@@ -424,7 +424,7 @@
 </tr>
 <tr>
   <td align=center><p>  &#9203;</p></td>
-  <td><a href="./Happy numbers">Happy numbers</a></td>
+  <td><a href="./Happy Number">Happy Number</a></td>
   <td>C, Python, Java</td>
 </tr>
 <tr>
