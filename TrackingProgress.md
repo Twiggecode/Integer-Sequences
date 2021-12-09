@@ -325,7 +325,7 @@
 </tr>
 <tr>
   <td align=center><p>  &#9203;</p></td>
-  <td><a href="./Semiperfect numbers">Semiperfect numbers</a></td>
+  <td><a href="./SemiPerfect Numbers">SemiPerfect Numbers</a></td>
   <td>C++, Python</td>
 </tr>
 <tr>
@@ -354,7 +354,7 @@
 </tr>
 <tr>
   <td align=center><p>  &#9203;</p></td>
-  <td><a href='./Kaprekar Numbers'>Kaprekar numbers</td>
+  <td><a href='./Kaprekars Numbers'>Kaprekars numbers</td>
   <td>Python</td>
 </tr>
 <tr>
@@ -364,7 +364,7 @@
 </tr>
 <tr>
   <td align=center><p>  &#9203;</p></td>
-  <td><a href="./Giuga numbers">Giuga numbers</a></td>
+  <td><a href="./Giuga Numbers">Giuga Numbers</a></td>
   <td>Python</td>
 </tr>
 <tr>
