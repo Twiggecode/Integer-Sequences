@@ -260,7 +260,7 @@
 </tr>
 <tr>
   <td align=center><p>  &#9203;</p></td>
-  <td><a href="./Carmichael numbers">Carmichael numbers</a></td>
+  <td><a href="./Carmichael Numbers">Carmichael Numbers</a></td>
   <td>CPP, python</td>
 </tr>
 <tr>
@@ -310,7 +310,7 @@
 </tr>
 <tr>
   <td align=center><p>  &#9203;</p></td>
-  <td><a href="./Practical numbers">Practical numbers</a></td>
+  <td><a href="./Practical Numbers">Practical Numbers</a></td>
   <td>C++, Python</td>
 </tr>
 <tr>
@@ -320,7 +320,7 @@
 </tr>
 <tr>
   <td align=center><p>  &#9203;</p></td>
-  <td><a href="./Fortunate numbers">Fortunate numbers</a></td>
+  <td><a href="./Fortunate Numbers">Fortunate Numbers</a></td>
   <td>Python</td>
 </tr>
 <tr>
