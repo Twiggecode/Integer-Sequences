@@ -45,7 +45,7 @@
 </tr>
 <tr>
   <td align=center><p>  &#9203;</p></td>
-  <td><a href="./Partition number">Partition number</a></td>
+  <td><a href="./Partition Numbers">Partition Numbers</a></td>
   <td>Python</td>
 </tr>
 <tr>
@@ -195,7 +195,7 @@
 </tr>
 <tr>
   <td align=center><p>  &#9203;</p></td>
-  <td><a href="./Semiprimes">Semiprimes</a></td>
+  <td><a href="./SemiPrimes">SemiPrimes</a></td>
   <td>Python</td>
 </tr>
 <tr>
