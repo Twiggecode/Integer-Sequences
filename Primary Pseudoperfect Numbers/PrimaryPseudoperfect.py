@@ -1,11 +1,12 @@
 import math
 
+# Since dealing with floating points, need a threshold 
 thresh = 0.0000001
 
 def primeFactors(n):
     divisors = set()
      
-    # Print the number of two's that divide n
+    # Continuously divide by 2 unstil odd 
     while n % 2 == 0:
         divisors.add(2)
         n = n / 2
@@ -13,7 +14,7 @@ def primeFactors(n):
     # n must be odd at this point
     # so a skip of 2 ( i = i + 2) can be used
     for i in range(3,int(math.sqrt(n))+1,2):
-        # while i divides n , print i and divide n
+        # Continuously divide by i until undivisible by i 
         while n % i== 0:
             divisors.add(i)
             n = n / i
