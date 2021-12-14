@@ -14,7 +14,7 @@ def primeFactors(n):
     # n must be odd at this point
     # so a skip of 2 ( i = i + 2) can be used
     for i in range(3,int(math.sqrt(n))+1,2):
-        # Continuously divide by i until undivisible by i 
+        # Continuously divide by i until indivisible by i 
         while n % i== 0:
             divisors.add(i)
             n = n / i
