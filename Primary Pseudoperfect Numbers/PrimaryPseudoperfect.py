@@ -6,7 +6,7 @@ thresh = 0.0000001
 def primeFactors(n):
     divisors = set()
      
-    # Continuously divide by 2 unstil odd 
+    # Continuously divide by 2 until odd 
     while n % 2 == 0:
         divisors.add(2)
         n = n / 2
