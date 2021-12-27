@@ -101,7 +101,7 @@
 <tr>
   <td align=center><p> &#9203;</p></td>
   <td><a href="./Factorials">Factorials</a></td>
-  <td>Python, C++, Java, Scala, R</td>
+  <td>Python, C++, Java, Scala, R, JS</td>
 </tr>
 <tr>
   <td align=center><p>  &#9203;</p></td>
@@ -196,7 +196,7 @@
 <tr>
   <td align=center><p>  &#9203;</p></td>
   <td><a href="./SemiPrimes">SemiPrimes</a></td>
-  <td>Python</td>
+  <td>Python, C++</td>
 </tr>
 <tr>
   <td align=center><p> &#9203;</p></td>
