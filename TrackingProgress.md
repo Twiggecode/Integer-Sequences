@@ -180,7 +180,7 @@
 </tr>
 <tr>
   <td align=center><p>  &#9203;</p></td>
-  <td>Sum of proper divisors</td>
+  <td><a href="./Sum of Proper Divisors">Sum of proper divisors</a></td>
   <td>C++, Java, Python</td>
 </tr>
 <tr>
@@ -246,7 +246,7 @@
 <tr>
   <td align=center><p>  &#9203;</p></td>
   <td><a href="./Composite Numbers">Composite Numbers</a></td>
-  <td>Python</td>
+  <td>Python, C</td>
 </tr>
 <tr>
   <td align=center><p> &#9203;</p></td>
