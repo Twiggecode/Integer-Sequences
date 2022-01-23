@@ -101,7 +101,7 @@
 <tr>
   <td align=center><p> &#9203;</p></td>
   <td><a href="./Factorials">Factorials</a></td>
-  <td>Python, C++, Java, Scala, R, JS</td>
+  <td>Python, C++, Java, Scala, R, JS, C</td>
 </tr>
 <tr>
   <td align=center><p>  &#9203;</p></td>
