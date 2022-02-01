@@ -30,8 +30,21 @@ def main():
     n = int(input('Enter n: '))
     count = -1
     current = 0
+    
+    # From https://en.wikipedia.org/wiki/Practical_number:
+    # "The only odd practical number is 1, because if n is an odd number greater than 2, 
+    # then 2 cannot be expressed as the sum of distinct divisors of n."
+    # Thus we don't need to check the odd numbers greater than 2, and this can improve the time complexity. 
+    
+    # To check for 0,1 and 2
+    while current < 2 and count < n:
+        current +=1
+        if is_practical(current):
+            count += 1
+    
+    # To check for greater numbers, only check even numbers
     while count < n:
-        current += 1
+        current += 2
         if is_practical(current):
             count += 1
     print(current)
