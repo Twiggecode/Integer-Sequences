@@ -16,6 +16,11 @@ Given a number this scripts calculates 2 raised to that number. This number can
 entered on the command line via the option -n or if not given on the command line
 the user will be polled for the number.
 
+This script has weak error checking. It will ensure the command line given number
+is 0 or greater, and it will ensure the given number is 0 ro greater. It will not
+ensure that a number is passed if a -n is sent on the command line. No checking is
+done to ensure that an integer is passed.
+
 $ man ./<script_name>.1 man page not implimented.
 
 Calls: For script
@@ -36,9 +41,17 @@ clear
 NTH=0
 if [ "$1" == "-n" ] && [ "$2" -ge 0 ]; then
     NTH="$2"
+elif [ "$1" == "-n" ] && [ "$2" -lt 0 ]; then
+    printf "Please only enter a number 0 or greater.\n"
+    exit 1
 else
     printf "Enter your exponent: "
     read NTH
+fi
+
+if [ "$NTH" -lt 0 ]; then
+    printf "Please only enter a number 0 or greater.\n"
+    exit 1
 fi
 
 power_of_two=$((2 ** "$NTH"))
