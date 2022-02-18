@@ -72,7 +72,7 @@ exit 0
 
 #: $ pod2man powers-of-two.sh > powers-of-two.1
 
-: <<'END_OF_DOCS'
+: <<'man_page_text'
 =head1 NAME
 
     NAME <script_name.sh> [option]
@@ -101,4 +101,4 @@ exit 0
 
     OPTIONS
 
-END_OF_DOCS
+man_page_text
