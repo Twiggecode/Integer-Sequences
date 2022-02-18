@@ -23,16 +23,17 @@ is 0 or greater, and it will ensure the given number is 0 ro greater. It will no
 ensure that a number is passed if a -n is sent on the command line. No checking is
 done to ensure that an integer is passed.
 
-$ man ./<script_name>.1 man page not implimented.
+$ man ./powers-of-2.1 man page not implimented. See docs below.
 
-Calls: For script
+Calls:
 $ ./powers-of-2.sh [option] <number>
 
 options
     -h, --help  This help text.
-    -n, The users given number
+    -n <number>, The users given number
 
-Example:
+Examples:
+    $ ./powers-of-2.sh
     $ ./powers-of-2.sh -n 3
 EOF
     exit 0
@@ -65,10 +66,10 @@ exit 0
 #: Documentation for man page creation.
 #: Create man page by:
 #: Filling in the sections below with your code and text. Don't touch the lines with the equals
-#: sign. Run the command below this line in the command prompt by replacing the text between the
-#: carots, along with the carots, with the scritps name. This is still a work in progress.
+#: sign. Run the pod2man command below these lines in the command prompt. The extension on the 2nd 
+#: script line should be 1.
 
-#: $ pod2man <script_name>.sh > <script_name>[.ext]
+#: $ pod2man powers-of-two.sh > powers-of-two.1
 
 : <<'END_OF_DOCS'
 =head1 NAME
