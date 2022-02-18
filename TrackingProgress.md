@@ -66,7 +66,7 @@
 <tr>
   <td align=center><p> &#9203;</p></td>
   <td><a href="./Powers Of 2">Powers of 2</a></td>
-  <td>Python, C++, C#, C, Java </td>
+  <td>Python, C++, C#, C, Java, bash</td>
 </tr>
 <tr>
   <td align=center><p>  &#9989;</p></td>
