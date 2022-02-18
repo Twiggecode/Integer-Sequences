@@ -1,0 +1,76 @@
+#!/usr/bin/env bash
+#: Bash Script to return 2 to the n'th.
+
+#: TITLE:      powers-of-2.sh
+#: DATE:       22/02/17
+#: AUTHOR:     GitHub: itsf4llofstars
+#: VERSION:    0.1.0
+#: DESCRPTION: Calculates 2 raised to the power of n, a user given number.
+#: OPTIONS:    -h, --help, -n
+
+#: Display help text
+if [ "$1" == "-h" ] || [ "$1" == "--help" ]; then
+    clear
+cat << EOF
+Given a number this scripts calculates 2 raised to that number. This number can
+entered on the command line via the option -n or if not given on the command line
+the user will be polled for the number.
+
+$ man ./<script_name>.1 man page not implimented.
+
+Calls: For script
+$ ./powers-of-2.sh [option] <number>
+
+options
+    -h, --help  This help text.
+    -n, The users given number
+
+Example:
+    $ ./powers-of-2.sh -n 3
+EOF
+    exit 0
+fi
+
+clear
+
+
+exit 0
+
+#: Documentation for man page creation.
+#: Create man page by:
+#: Filling in the sections below with your code and text. Don't touch the lines with the equals
+#: sign. Run the command below this line in the command prompt by replacing the text between the
+#: carots, along with the carots, with the scritps name. This is still a work in progress.
+
+#: $ pod2man <script_name>.sh > <script_name>[.ext]
+
+: <<'END_OF_DOCS'
+=head1 NAME
+
+    NAME <script_name.sh> [option]
+
+=head1 SYNOPSIS
+
+    SYNOPSIS
+
+=head1 DESCRIPTION
+
+    DESCRIPTION
+
+=head1 EXAMPLES
+
+    EXAMPLE calls
+
+=head1 OVERVIEW
+
+    OVERVIEW
+
+=head1 DEFAULTS
+
+    DEFAULTS
+
+=head1 OPTIONS
+
+    OPTIONS
+
+END_OF_DOCS
