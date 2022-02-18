@@ -39,6 +39,7 @@ EOF
     exit 0
 fi
 
+#: Main Algorithm
 clear
 
 NTH=0
