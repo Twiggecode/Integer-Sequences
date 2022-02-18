@@ -11,7 +11,7 @@
 #: Display help text
 if [ "$1" == "-h" ] || [ "$1" == "--help" ]; then
     clear
-cat << EOF
+    cat <<EOF
 Given a number this scripts calculates 2 raised to that number. This number can
 entered on the command line via the option -n or if not given on the command line
 the user will be polled for the number.
@@ -33,6 +33,17 @@ fi
 
 clear
 
+NTH=0
+if [ "$1" == "-n" ] && [ "$2" -ge 0 ]; then
+    NTH="$2"
+else
+    printf "Enter your exponent: "
+    read NTH
+fi
+
+power_of_two=$((2 ** "$NTH"))
+
+printf "The $NTH'th number in the sequence is $power_of_two\n"
 
 exit 0
 
