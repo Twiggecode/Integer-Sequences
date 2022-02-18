@@ -6,7 +6,7 @@
 #: AUTHOR:     GitHub: itsf4llofstars
 #: VERSION:    0.1.0
 #: DESCRPTION: Calculates 2 raised to the power of n, a user given number.
-#: OPTIONS:    -h, --help, -n
+#: OPTIONS:    -h, --help, -n <integer>
 
 #: Display help text
 if [ "$1" == "-h" ] || [ "$1" == "--help" ]; then
@@ -15,6 +15,8 @@ if [ "$1" == "-h" ] || [ "$1" == "--help" ]; then
 Given a number this scripts calculates 2 raised to that number. This number can
 entered on the command line via the option -n or if not given on the command line
 the user will be polled for the number.
+
+On 32 bit system 32 may be the higest number to be calculated, 64 on 64 bit systems.
 
 This script has weak error checking. It will ensure the command line given number
 is 0 or greater, and it will ensure the given number is 0 ro greater. It will not
