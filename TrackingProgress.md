@@ -36,7 +36,7 @@
 <tr>
   <td align=center><p> &#9203;</p></td>
   <td><a href="./Lucas Numbers">Lucas numbers</a></td>
-  <td>Python, C++, Java</td>
+  <td>Python, C++, Java, C</td>
 </tr>
 <tr>
   <td align=center><p> &#9203;</p></td>
@@ -176,7 +176,7 @@
 <tr>
   <td align=center><p> &#9203;</p></td>
   <td><a href="./Jacobsthal Numbers">Jacobsthal numbers</a></td>
-  <td>Python, C++, Java</td>
+  <td>Python, C++, Java, C</td>
 </tr>
 <tr>
   <td align=center><p>  &#9203;</p></td>
