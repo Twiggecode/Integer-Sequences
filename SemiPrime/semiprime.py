@@ -17,10 +17,10 @@ def isPrime(num):
 def isSemiprime(n):
     i = 2
     while i <= math.sqrt(n):
-        if isPrime(i):
             if n % i == 0:
-                if isPrime(n/i):
-                    return True
+                if isPrime(i):
+                    if isPrime(n/i):
+                        return True
         i += 1
     return False
     
