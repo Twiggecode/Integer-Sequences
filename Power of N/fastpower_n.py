@@ -24,6 +24,6 @@ if __name__ == "__main__":
     n = int(input("Please input the power(int): "))
 
     if(x == 0. and n == 0):
-        print("0 to the power 0 is not defined")
+        print("0 to the power of 0 is undefined")
     else:
         print("{} to the power of {} is : {}".format(x, n, fastpower(x, n)))
