@@ -354,7 +354,7 @@
 </tr>
 <tr>
   <td align=center><p>  &#9203;</p></td>
-  <td><a href='./Kaprekars Numbers'>Kaprekars numbers</td>
+  <td><a href='./Kaprekars Numbers'>Kaprekars numbers</a></td>
   <td>Python</td>
 </tr>
 <tr>
