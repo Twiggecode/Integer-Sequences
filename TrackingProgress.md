@@ -76,7 +76,7 @@
 <tr>
   <td align=center><p> &#9203;</p></td>
   <td><a href="./Catalan Numbers">Catalan number</a></td>
-  <td>Python, C++, Java, C</td>
+  <td>Python, C++, Java, C, Matlab</td>
 </tr>
 <tr>
   <td align=center><p> &#9203;</p></td>
@@ -316,7 +316,7 @@
 <tr>
   <td align=center><p>  &#9203;</p></td>
   <td><a href="./Alternating Factorial">Alternating factorial</a></td>
-  <td>C++, Java, Python, C</td>
+  <td>C++, Java, Python, C, Matlab</td>
 </tr>
 <tr>
   <td align=center><p>  &#9203;</p></td>
