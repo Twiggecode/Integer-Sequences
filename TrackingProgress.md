@@ -155,7 +155,7 @@
 </tr>
 <tr>
   <td align=center><p>  &#9203;</p></td>
-  <td><a href="./Lucky Number">Lucky numbers</td>
+  <td><a href="./Lucky Number">Lucky numbers</a></td>
   <td>Python, C++</td>
 </tr>
 <tr>
@@ -354,7 +354,7 @@
 </tr>
 <tr>
   <td align=center><p>  &#9203;</p></td>
-  <td><a href='./Kaprekars Numbers'>Kaprekars numbers</td>
+  <td><a href='./Kaprekars Numbers'>Kaprekars numbers</a></td>
   <td>Python</td>
 </tr>
 <tr>
